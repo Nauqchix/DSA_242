@@ -1,0 +1,21 @@
+List2D - int
+------------------------------
+init_empty
+toString
+setRow 0 3 1 2 3
+toString
+setRow 1 1 1
+toString
+get 1 0
+get 0 0
+getRow 1
+setRow 1 2 1 2
+operator<<
+get 1 2
+get 10 10
+getRow 10 
+setRow 10 1 1
+init_array 2 2 1 2 3 4
+toString
+init_other 1 1 1
+toString

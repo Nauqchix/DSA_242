@@ -1,0 +1,139 @@
+133 - DLinkedList - string
+itemEqual = null
+deleteUserData = null
+capacity = 8
+---------VO-TIEN---------SHIBA---------VO-TIEN---------
+print_item2str null
+add CS 
+print_item2str null
+add_index 0 GHOST 
+print_item2str null
+get 1 
+print_item2str null
+indexOf TRAP 
+print_item2str null
+indexOf TRAP 
+print_item2str null
+indexOf KHMT 
+print_item2str null
+add_index 0 TRAP 
+print_item2str null
+add_index 0 BKU 
+print_item2str null
+add_index -1 GHOST 
+print_item2str null
+add_index 0 CS 
+print_item2str null
+clear 
+print_item2str null
+add_index -1 KHMT 
+print_item2str null
+add_index -1 Shiba 
+print_item2str null
+add_index 0 BKU 
+print_item2str null
+add_index -1 Shiba 
+print_item2str null
+get -1 
+print_item2str null
+add_index -1 TIEN 
+print_item2str null
+get 1 
+print_item2str null
+contains TIEN 
+print_item2str null
+contains CS 
+print_item2str null
+clear 
+print_item2str null
+add_index 0 TRAP 
+print_item2str null
+add Shiba 
+print_item2str null
+clear 
+print_item2str null
+add_index 0 GHOST 
+print_item2str null
+clear 
+print_item2str null
+add_index 0 BKU 
+print_item2str null
+clear 
+print_item2str null
+add_index -1 KTMT 
+print_item2str null
+add CS 
+print_item2str null
+add_index 0 VoTien 
+print_item2str null
+add CE 
+print_item2str null
+indexOf KHMT 
+print_item2str null
+indexOf TRAP 
+print_item2str null
+get 1 
+print_item2str null
+clear 
+print_item2str null
+contains KHMT 
+print_item2str null
+add TRAP 
+print_item2str null
+contains TIEN 
+print_item2str null
+contains KTMT 
+print_item2str null
+add CE 
+print_item2str null
+indexOf CSE 
+print_item2str null
+add CSE 
+print_item2str null
+add KTMT 
+print_item2str null
+get 0 
+print_item2str null
+contains GHOST 
+print_item2str null
+indexOf VoTien 
+print_item2str null
+contains TIEN 
+print_item2str null
+get 1 
+print_item2str null
+indexOf CE 
+print_item2str null
+add CS 
+print_item2str null
+add VoTien 
+print_item2str null
+clear 
+print_item2str null
+add_index -1 TIEN 
+print_item2str null
+indexOf KHMT 
+print_item2str null
+add BKU 
+print_item2str null
+get 1 
+print_item2str null
+add_index 0 GHOST 
+print_item2str null
+get -1 
+print_item2str null
+add_index -1 TRAP 
+print_item2str null
+add CS 
+print_item2str null
+contains Shiba 
+print_item2str null
+get 1 
+print_item2str null
+indexOf CS 
+print_item2str null
+add CS 
+print_item2str null
+indexOf VoTien 
+print_item2str null
+---------VO-TIEN---------SHIBA---------VO-TIEN---------

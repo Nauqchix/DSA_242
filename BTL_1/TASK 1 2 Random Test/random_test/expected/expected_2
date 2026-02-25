@@ -1,0 +1,286 @@
+line 6: print_item2str null
+size:0;empty:1;str=[]
+line 7: clear
+line 8: print_item2str null
+size:0;empty:1;str=[]
+line 9: add DSA01
+line 10: print_item2str null
+size:1;empty:0;str=[DSA01]
+line 11: add_index 0 TIEN
+line 12: print_item2str null
+size:2;empty:0;str=[TIEN, DSA01]
+line 13: contains TIEN
+Result: true
+line 14: print_item2str null
+size:2;empty:0;str=[TIEN, DSA01]
+line 15: add_index -1 TIEN
+Error: Out of range exception: Index is out of range!
+line 16: print_item2str null
+size:2;empty:0;str=[TIEN, DSA01]
+line 17: get 0
+Result: TIEN
+line 18: print_item2str null
+size:2;empty:0;str=[TIEN, DSA01]
+line 19: indexOf KTMT
+Result: -1
+line 20: print_item2str null
+size:2;empty:0;str=[TIEN, DSA01]
+line 21: get 0
+Result: TIEN
+line 22: print_item2str null
+size:2;empty:0;str=[TIEN, DSA01]
+line 23: clear
+line 24: print_item2str null
+size:0;empty:1;str=[]
+line 25: indexOf BKU
+Result: -1
+line 26: print_item2str null
+size:0;empty:1;str=[]
+line 27: clear
+line 28: print_item2str null
+size:0;empty:1;str=[]
+line 29: clear
+line 30: print_item2str null
+size:0;empty:1;str=[]
+line 31: get 0
+Error: Out of range exception: Index is out of range!
+line 32: print_item2str null
+size:0;empty:1;str=[]
+line 33: clear
+line 34: print_item2str null
+size:0;empty:1;str=[]
+line 35: clear
+line 36: print_item2str null
+size:0;empty:1;str=[]
+line 37: get 0
+Error: Out of range exception: Index is out of range!
+line 38: print_item2str null
+size:0;empty:1;str=[]
+line 39: add CE
+line 40: print_item2str null
+size:1;empty:0;str=[CE]
+line 41: add_index 1 DSA01
+line 42: print_item2str null
+size:2;empty:0;str=[CE, DSA01]
+line 43: get -1
+Error: Out of range exception: Index is out of range!
+line 44: print_item2str null
+size:2;empty:0;str=[CE, DSA01]
+line 45: add_index 2 KHMT
+line 46: print_item2str null
+size:3;empty:0;str=[CE, DSA01, KHMT]
+line 47: contains TIEN
+Result: false
+line 48: print_item2str null
+size:3;empty:0;str=[CE, DSA01, KHMT]
+line 49: contains TRAP
+Result: false
+line 50: print_item2str null
+size:3;empty:0;str=[CE, DSA01, KHMT]
+line 51: get 1
+Result: DSA01
+line 52: print_item2str null
+size:3;empty:0;str=[CE, DSA01, KHMT]
+line 53: add KHMT
+line 54: print_item2str null
+size:4;empty:0;str=[CE, DSA01, KHMT, KHMT]
+line 55: contains BKU
+Result: false
+line 56: print_item2str null
+size:4;empty:0;str=[CE, DSA01, KHMT, KHMT]
+line 57: clear
+line 58: print_item2str null
+size:0;empty:1;str=[]
+line 59: indexOf KHMT
+Result: -1
+line 60: print_item2str null
+size:0;empty:1;str=[]
+line 61: add BKU
+line 62: print_item2str null
+size:1;empty:0;str=[BKU]
+line 63: get -1
+Error: Out of range exception: Index is out of range!
+line 64: print_item2str null
+size:1;empty:0;str=[BKU]
+line 65: clear
+line 66: print_item2str null
+size:0;empty:1;str=[]
+line 67: add_index -1 TIEN
+Error: Out of range exception: Index is out of range!
+line 68: print_item2str null
+size:0;empty:1;str=[]
+line 69: add_index -1 CS
+Error: Out of range exception: Index is out of range!
+line 70: print_item2str null
+size:0;empty:1;str=[]
+line 71: add TIEN
+line 72: print_item2str null
+size:1;empty:0;str=[TIEN]
+line 73: get 1
+Error: Out of range exception: Index is out of range!
+line 74: print_item2str null
+size:1;empty:0;str=[TIEN]
+line 75: clear
+line 76: print_item2str null
+size:0;empty:1;str=[]
+line 77: get -1
+Error: Out of range exception: Index is out of range!
+line 78: print_item2str null
+size:0;empty:1;str=[]
+line 79: clear
+line 80: print_item2str null
+size:0;empty:1;str=[]
+line 81: indexOf CS
+Result: -1
+line 82: print_item2str null
+size:0;empty:1;str=[]
+line 83: add CE
+line 84: print_item2str null
+size:1;empty:0;str=[CE]
+line 85: indexOf CSE
+Result: -1
+line 86: print_item2str null
+size:1;empty:0;str=[CE]
+line 87: get 0
+Result: CE
+line 88: print_item2str null
+size:1;empty:0;str=[CE]
+line 89: add KHMT
+line 90: print_item2str null
+size:2;empty:0;str=[CE, KHMT]
+line 91: get 2
+Error: Out of range exception: Index is out of range!
+line 92: print_item2str null
+size:2;empty:0;str=[CE, KHMT]
+line 93: contains TRAP
+Result: false
+line 94: print_item2str null
+size:2;empty:0;str=[CE, KHMT]
+line 95: add GHOST
+line 96: print_item2str null
+size:3;empty:0;str=[CE, KHMT, GHOST]
+line 97: clear
+line 98: print_item2str null
+size:0;empty:1;str=[]
+line 99: add_index -1 TIEN
+Error: Out of range exception: Index is out of range!
+line 100: print_item2str null
+size:0;empty:1;str=[]
+line 101: clear
+line 102: print_item2str null
+size:0;empty:1;str=[]
+line 103: add_index -1 BKU
+Error: Out of range exception: Index is out of range!
+line 104: print_item2str null
+size:0;empty:1;str=[]
+line 105: add_index 0 Shiba
+line 106: print_item2str null
+size:1;empty:0;str=[Shiba]
+line 107: add_index -1 TIEN
+Error: Out of range exception: Index is out of range!
+line 108: print_item2str null
+size:1;empty:0;str=[Shiba]
+line 109: indexOf KTMT
+Result: -1
+line 110: print_item2str null
+size:1;empty:0;str=[Shiba]
+line 111: contains VoTien
+Result: false
+line 112: print_item2str null
+size:1;empty:0;str=[Shiba]
+line 113: get 0
+Result: Shiba
+line 114: print_item2str null
+size:1;empty:0;str=[Shiba]
+line 115: add KHMT
+line 116: print_item2str null
+size:2;empty:0;str=[Shiba, KHMT]
+line 117: contains CSE
+Result: false
+line 118: print_item2str null
+size:2;empty:0;str=[Shiba, KHMT]
+line 119: add CSE
+line 120: print_item2str null
+size:3;empty:0;str=[Shiba, KHMT, CSE]
+line 121: indexOf DSA01
+Result: -1
+line 122: print_item2str null
+size:3;empty:0;str=[Shiba, KHMT, CSE]
+line 123: clear
+line 124: print_item2str null
+size:0;empty:1;str=[]
+line 125: indexOf BKU
+Result: -1
+line 126: print_item2str null
+size:0;empty:1;str=[]
+line 127: add KHMT
+line 128: print_item2str null
+size:1;empty:0;str=[KHMT]
+line 129: clear
+line 130: print_item2str null
+size:0;empty:1;str=[]
+line 131: add_index -1 GHOST
+Error: Out of range exception: Index is out of range!
+line 132: print_item2str null
+size:0;empty:1;str=[]
+line 133: indexOf CS
+Result: -1
+line 134: print_item2str null
+size:0;empty:1;str=[]
+line 135: indexOf KTMT
+Result: -1
+line 136: print_item2str null
+size:0;empty:1;str=[]
+line 137: clear
+line 138: print_item2str null
+size:0;empty:1;str=[]
+line 139: indexOf GHOST
+Result: -1
+line 140: print_item2str null
+size:0;empty:1;str=[]
+line 141: add_index 0 GHOST
+line 142: print_item2str null
+size:1;empty:0;str=[GHOST]
+line 143: clear
+line 144: print_item2str null
+size:0;empty:1;str=[]
+line 145: indexOf KHMT
+Result: -1
+line 146: print_item2str null
+size:0;empty:1;str=[]
+line 147: clear
+line 148: print_item2str null
+size:0;empty:1;str=[]
+line 149: contains BKU
+Result: false
+line 150: print_item2str null
+size:0;empty:1;str=[]
+line 151: add_index 0 CSE
+line 152: print_item2str null
+size:1;empty:0;str=[CSE]
+line 153: add_index 1 KHMT
+line 154: print_item2str null
+size:2;empty:0;str=[CSE, KHMT]
+line 155: indexOf GHOST
+Result: -1
+line 156: print_item2str null
+size:2;empty:0;str=[CSE, KHMT]
+line 157: add KTMT
+line 158: print_item2str null
+size:3;empty:0;str=[CSE, KHMT, KTMT]
+line 159: get 2
+Result: KTMT
+line 160: print_item2str null
+size:3;empty:0;str=[CSE, KHMT, KTMT]
+line 161: clear
+line 162: print_item2str null
+size:0;empty:1;str=[]
+line 163: indexOf VoTien
+Result: -1
+line 164: print_item2str null
+size:0;empty:1;str=[]
+line 165: add_index -1 TRAP
+Error: Out of range exception: Index is out of range!
+line 166: print_item2str null
+size:0;empty:1;str=[]
+line 167: end test ---- VO TIEN ----

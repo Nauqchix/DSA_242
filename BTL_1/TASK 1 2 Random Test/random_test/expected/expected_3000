@@ -1,0 +1,2062 @@
+line 6: print_item2str point2str
+size:0;empty:1;str=[]
+line 7: contructor
+size:0;empty:1;str=[]
+line 8: print_item2str point2str
+size:0;empty:1;str=[]
+line 9: clear
+line 10: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 11: add P(1.0, 0.0, 0.0)
+line 12: print_item2str point2str
+size:1;empty:0;str=[P(1, 0, 0)]
+line 13: operator=
+size:1;empty:0;str=[P(1.0, 0.0, 0.0)]
+line 14: print_item2str point2str_X
+size:1;empty:0;str=[X: 1]
+line 15: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 16: print_item2str point2str
+size:1;empty:0;str=[P(1, 0, 0)]
+line 17: Iterator_for
+P(1.0, 0.0, 0.0) 
+line 18: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 19: removeAt 1
+Error: Out of range exception: Index is out of range!
+line 20: print_item2str point2str
+size:1;empty:0;str=[P(1, 0, 0)]
+line 21: operator=
+size:1;empty:0;str=[P(1.0, 0.0, 0.0)]
+line 22: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 23: indexOf P(1.0, 0.0, 2.0)
+Result: -1
+line 24: print_item2str point2str_X
+size:1;empty:0;str=[X: 1]
+line 25: contains P(1.0, 0.0, 1.0)
+Result: false
+line 26: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 0]
+line 27: add_index 1 P(2.0, 0.0, 0.0)
+line 28: print_item2str point2str_X
+size:2;empty:0;str=[X: 1, X: 2]
+line 29: operator=
+size:2;empty:0;str=[P(1.0, 0.0, 0.0), P(2.0, 0.0, 0.0)]
+line 30: print_item2str point2str_Y
+size:2;empty:0;str=[Y: 0, Y: 0]
+line 31: add_index 2 P(3.0, 2.0, 1.0)
+line 32: print_item2str point2str_X
+size:3;empty:0;str=[X: 1, X: 2, X: 3]
+line 33: removeAt 2
+Result: P(3.0, 2.0, 1.0)
+line 34: print_item2str point2str
+size:2;empty:0;str=[P(1, 0, 0), P(2, 0, 0)]
+line 35: clear
+line 36: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 37: contructor
+size:0;empty:1;str=[]
+line 38: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 39: add_index 0 P(3.0, 2.0, 0.0)
+line 40: print_item2str point2str
+size:1;empty:0;str=[P(3, 2, 0)]
+line 41: contains P(3.0, 0.0, 0.0)
+Result: true
+line 42: print_item2str point2str_X
+size:1;empty:0;str=[X: 3]
+line 43: contructor
+size:1;empty:0;str=[P(3.0, 2.0, 0.0)]
+line 44: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 0]
+line 45: clear
+line 46: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 47: add_index 0 P(3.0, 0.0, 0.0)
+line 48: print_item2str point2str
+size:1;empty:0;str=[P(3, 0, 0)]
+line 49: Iterator_for
+P(3.0, 0.0, 0.0) 
+line 50: print_item2str point2str_X
+size:1;empty:0;str=[X: 3]
+line 51: add_index 1 P(3.0, 2.0, 0.0)
+line 52: print_item2str point2str_X
+size:2;empty:0;str=[X: 3, X: 3]
+line 53: removeAt 1
+Result: P(3.0, 2.0, 0.0)
+line 54: print_item2str point2str
+size:1;empty:0;str=[P(3, 0, 0)]
+line 55: contains P(0.0, 2.0, 0.0)
+Result: true
+line 56: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 0]
+line 57: indexOf P(0.0, 1.0, 2.0)
+Result: -1
+line 58: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 59: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 60: print_item2str point2str_X
+size:1;empty:0;str=[X: 3]
+line 61: contains P(2.0, 3.0, 0.0)
+Result: true
+line 62: print_item2str point2str
+size:1;empty:0;str=[P(3, 0, 0)]
+line 63: contructor
+size:1;empty:0;str=[P(3.0, 0.0, 0.0)]
+line 64: print_item2str point2str_X
+size:1;empty:0;str=[X: 3]
+line 65: removeItem P(1.0, 0.0, 0.0) pointRemove
+Result: true
+line 66: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 67: removeAt 0
+Error: Out of range exception: Index is out of range!
+line 68: print_item2str point2str
+size:0;empty:1;str=[]
+line 69: Iterator_for
+
+line 70: print_item2str point2str
+size:0;empty:1;str=[]
+line 71: add P(0.0, 0.0, 0.0)
+line 72: print_item2str point2str
+size:1;empty:0;str=[P(0, 0, 0)]
+line 73: removeAt 0
+Result: P(0.0, 0.0, 0.0)
+line 74: print_item2str point2str
+size:0;empty:1;str=[]
+line 75: get -1
+Error: Out of range exception: Index is out of range!
+line 76: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 77: clear
+line 78: print_item2str point2str
+size:0;empty:1;str=[]
+line 79: get 0
+Error: Out of range exception: Index is out of range!
+line 80: print_item2str point2str
+size:0;empty:1;str=[]
+line 81: add_index -1 P(2.0, 0.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 82: print_item2str point2str
+size:0;empty:1;str=[]
+line 83: Iterator_for
+
+line 84: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 85: get -1
+Error: Out of range exception: Index is out of range!
+line 86: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 87: indexOf P(0.0, 0.0, 1.0)
+Result: -1
+line 88: print_item2str point2str
+size:0;empty:1;str=[]
+line 89: removeItem P(2.0, 3.0, 2.0) pointRemove
+Result: false
+line 90: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 91: add P(2.0, 0.0, 3.0)
+line 92: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 3]
+line 93: add P(1.0, 2.0, 2.0)
+line 94: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 3, Z: 2]
+line 95: contructor
+size:2;empty:0;str=[P(2.0, 0.0, 3.0), P(1.0, 2.0, 2.0)]
+line 96: print_item2str point2str
+size:2;empty:0;str=[P(2, 0, 3), P(1, 2, 2)]
+line 97: removeItem P(3.0, 3.0, 2.0) pointRemove
+Result: true
+line 98: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 99: contains P(0.0, 1.0, 1.0)
+Result: false
+line 100: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 101: Iterator_for
+P(2.0, 0.0, 3.0) 
+line 102: print_item2str point2str
+size:1;empty:0;str=[P(2, 0, 3)]
+line 103: add P(0.0, 3.0, 3.0)
+line 104: print_item2str point2str
+size:2;empty:0;str=[P(2, 0, 3), P(0, 3, 3)]
+line 105: removeAt 1
+Result: P(0.0, 3.0, 3.0)
+line 106: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 107: Iterator_for
+P(2.0, 0.0, 3.0) 
+line 108: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 3]
+line 109: add P(3.0, 1.0, 0.0)
+line 110: print_item2str point2str
+size:2;empty:0;str=[P(2, 0, 3), P(3, 1, 0)]
+line 111: indexOf P(3.0, 3.0, 3.0)
+Result: 0
+line 112: print_item2str point2str
+size:2;empty:0;str=[P(2, 0, 3), P(3, 1, 0)]
+line 113: get 3
+Error: Out of range exception: Index is out of range!
+line 114: print_item2str point2str
+size:2;empty:0;str=[P(2, 0, 3), P(3, 1, 0)]
+line 115: contains P(0.0, 3.0, 3.0)
+Result: true
+line 116: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 3, Z: 0]
+line 117: get 0
+Result: P(2.0, 0.0, 3.0)
+line 118: print_item2str point2str_X
+size:2;empty:0;str=[X: 2, X: 3]
+line 119: Iterator_for
+P(2.0, 0.0, 3.0) P(3.0, 1.0, 0.0) 
+line 120: print_item2str point2str_Y
+size:2;empty:0;str=[Y: 0, Y: 1]
+line 121: Iterator_for
+P(2.0, 0.0, 3.0) P(3.0, 1.0, 0.0) 
+line 122: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 3, Z: 0]
+line 123: add P(3.0, 1.0, 3.0)
+line 124: print_item2str point2str_Y
+size:3;empty:0;str=[Y: 0, Y: 1, Y: 1]
+line 125: contains P(3.0, 1.0, 2.0)
+Result: false
+line 126: print_item2str point2str_Y
+size:3;empty:0;str=[Y: 0, Y: 1, Y: 1]
+line 127: contructor
+size:3;empty:0;str=[P(2.0, 0.0, 3.0), P(3.0, 1.0, 0.0), P(3.0, 1.0, 3.0)]
+line 128: print_item2str point2str
+size:3;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3)]
+line 129: operator=
+size:3;empty:0;str=[P(2.0, 0.0, 3.0), P(3.0, 1.0, 0.0), P(3.0, 1.0, 3.0)]
+line 130: print_item2str point2str_X
+size:3;empty:0;str=[X: 2, X: 3, X: 3]
+line 131: get -1
+Error: Out of range exception: Index is out of range!
+line 132: print_item2str point2str_Y
+size:3;empty:0;str=[Y: 0, Y: 1, Y: 1]
+line 133: add P(2.0, 1.0, 0.0)
+line 134: print_item2str point2str
+size:4;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 1, 0)]
+line 135: Iterator_for
+P(2.0, 0.0, 3.0) P(3.0, 1.0, 0.0) P(3.0, 1.0, 3.0) P(2.0, 1.0, 0.0) 
+line 136: print_item2str point2str_X
+size:4;empty:0;str=[X: 2, X: 3, X: 3, X: 2]
+line 137: operator=
+size:4;empty:0;str=[P(2.0, 0.0, 3.0), P(3.0, 1.0, 0.0), P(3.0, 1.0, 3.0), P(2.0, 1.0, 0.0)]
+line 138: print_item2str point2str_Y
+size:4;empty:0;str=[Y: 0, Y: 1, Y: 1, Y: 1]
+line 139: get 4
+Error: Out of range exception: Index is out of range!
+line 140: print_item2str point2str
+size:4;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 1, 0)]
+line 141: contains P(1.0, 0.0, 1.0)
+Result: false
+line 142: print_item2str point2str_X
+size:4;empty:0;str=[X: 2, X: 3, X: 3, X: 2]
+line 143: contains P(3.0, 1.0, 2.0)
+Result: false
+line 144: print_item2str point2str
+size:4;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 1, 0)]
+line 145: Iterator_for
+P(2.0, 0.0, 3.0) P(3.0, 1.0, 0.0) P(3.0, 1.0, 3.0) P(2.0, 1.0, 0.0) 
+line 146: print_item2str point2str
+size:4;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 1, 0)]
+line 147: indexOf P(0.0, 2.0, 2.0)
+Result: -1
+line 148: print_item2str point2str_Z
+size:4;empty:0;str=[Z: 3, Z: 0, Z: 3, Z: 0]
+line 149: add P(0.0, 1.0, 2.0)
+line 150: print_item2str point2str_Y
+size:5;empty:0;str=[Y: 0, Y: 1, Y: 1, Y: 1, Y: 1]
+line 151: add P(2.0, 3.0, 3.0)
+line 152: print_item2str point2str
+size:6;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 1, 0), P(0, 1, 2), P(2, 3, 3)]
+line 153: add_index 7 P(1.0, 0.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 154: print_item2str point2str
+size:6;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 1, 0), P(0, 1, 2), P(2, 3, 3)]
+line 155: operator=
+size:6;empty:0;str=[P(2.0, 0.0, 3.0), P(3.0, 1.0, 0.0), P(3.0, 1.0, 3.0), P(2.0, 1.0, 0.0), P(0.0, 1.0, 2.0), P(2.0, 3.0, 3.0)]
+line 156: print_item2str point2str
+size:6;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 1, 0), P(0, 1, 2), P(2, 3, 3)]
+line 157: add P(1.0, 3.0, 0.0)
+line 158: print_item2str point2str_X
+size:7;empty:0;str=[X: 2, X: 3, X: 3, X: 2, X: 0, X: 2, X: 1]
+line 159: contructor
+size:7;empty:0;str=[P(2.0, 0.0, 3.0), P(3.0, 1.0, 0.0), P(3.0, 1.0, 3.0), P(2.0, 1.0, 0.0), P(0.0, 1.0, 2.0), P(2.0, 3.0, 3.0), P(1.0, 3.0, 0.0)]
+line 160: print_item2str point2str
+size:7;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 1, 0), P(0, 1, 2), P(2, 3, 3), P(1, 3, 0)]
+line 161: Iterator_for
+P(2.0, 0.0, 3.0) P(3.0, 1.0, 0.0) P(3.0, 1.0, 3.0) P(2.0, 1.0, 0.0) P(0.0, 1.0, 2.0) P(2.0, 3.0, 3.0) P(1.0, 3.0, 0.0) 
+line 162: print_item2str point2str_Y
+size:7;empty:0;str=[Y: 0, Y: 1, Y: 1, Y: 1, Y: 1, Y: 3, Y: 3]
+line 163: get 2
+Result: P(3.0, 1.0, 3.0)
+line 164: print_item2str point2str
+size:7;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 1, 0), P(0, 1, 2), P(2, 3, 3), P(1, 3, 0)]
+line 165: removeAt 4
+Result: P(0.0, 1.0, 2.0)
+line 166: print_item2str point2str_Z
+size:6;empty:0;str=[Z: 3, Z: 0, Z: 3, Z: 0, Z: 3, Z: 0]
+line 167: get 6
+Error: Out of range exception: Index is out of range!
+line 168: print_item2str point2str
+size:6;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 1, 0), P(2, 3, 3), P(1, 3, 0)]
+line 169: removeAt 3
+Result: P(2.0, 1.0, 0.0)
+line 170: print_item2str point2str
+size:5;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 3, 3), P(1, 3, 0)]
+line 171: add_index 7 P(3.0, 3.0, 2.0)
+Error: Out of range exception: Index is out of range!
+line 172: print_item2str point2str_X
+size:5;empty:0;str=[X: 2, X: 3, X: 3, X: 2, X: 1]
+line 173: indexOf P(3.0, 3.0, 1.0)
+Result: -1
+line 174: print_item2str point2str_Y
+size:5;empty:0;str=[Y: 0, Y: 1, Y: 1, Y: 3, Y: 3]
+line 175: indexOf P(2.0, 3.0, 3.0)
+Result: 0
+line 176: print_item2str point2str
+size:5;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 3, 3), P(1, 3, 0)]
+line 177: get -1
+Error: Out of range exception: Index is out of range!
+line 178: print_item2str point2str
+size:5;empty:0;str=[P(2, 0, 3), P(3, 1, 0), P(3, 1, 3), P(2, 3, 3), P(1, 3, 0)]
+line 179: add P(2.0, 1.0, 0.0)
+line 180: print_item2str point2str_Z
+size:6;empty:0;str=[Z: 3, Z: 0, Z: 3, Z: 3, Z: 0, Z: 0]
+line 181: contructor
+size:6;empty:0;str=[P(2.0, 0.0, 3.0), P(3.0, 1.0, 0.0), P(3.0, 1.0, 3.0), P(2.0, 3.0, 3.0), P(1.0, 3.0, 0.0), P(2.0, 1.0, 0.0)]
+line 182: print_item2str point2str_Y
+size:6;empty:0;str=[Y: 0, Y: 1, Y: 1, Y: 3, Y: 3, Y: 1]
+line 183: clear
+line 184: print_item2str point2str
+size:0;empty:1;str=[]
+line 185: add P(3.0, 1.0, 2.0)
+line 186: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 1]
+line 187: Iterator_for
+P(3.0, 1.0, 2.0) 
+line 188: print_item2str point2str
+size:1;empty:0;str=[P(3, 1, 2)]
+line 189: indexOf P(0.0, 2.0, 1.0)
+Result: -1
+line 190: print_item2str point2str_X
+size:1;empty:0;str=[X: 3]
+line 191: clear
+line 192: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 193: add_index 0 P(2.0, 3.0, 0.0)
+line 194: print_item2str point2str
+size:1;empty:0;str=[P(2, 3, 0)]
+line 195: Iterator_for
+P(2.0, 3.0, 0.0) 
+line 196: print_item2str point2str
+size:1;empty:0;str=[P(2, 3, 0)]
+line 197: operator=
+size:1;empty:0;str=[P(2.0, 3.0, 0.0)]
+line 198: print_item2str point2str
+size:1;empty:0;str=[P(2, 3, 0)]
+line 199: get -1
+Error: Out of range exception: Index is out of range!
+line 200: print_item2str point2str_X
+size:1;empty:0;str=[X: 2]
+line 201: add P(0.0, 0.0, 3.0)
+line 202: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 0, Z: 3]
+line 203: contructor
+size:2;empty:0;str=[P(2.0, 3.0, 0.0), P(0.0, 0.0, 3.0)]
+line 204: print_item2str point2str
+size:2;empty:0;str=[P(2, 3, 0), P(0, 0, 3)]
+line 205: removeItem P(3.0, 2.0, 2.0) pointRemove
+Result: false
+line 206: print_item2str point2str_Y
+size:2;empty:0;str=[Y: 3, Y: 0]
+line 207: add P(0.0, 3.0, 1.0)
+line 208: print_item2str point2str_Z
+size:3;empty:0;str=[Z: 0, Z: 3, Z: 1]
+line 209: removeItem P(0.0, 2.0, 1.0) pointRemove
+Result: true
+line 210: print_item2str point2str
+size:2;empty:0;str=[P(2, 3, 0), P(0, 0, 3)]
+line 211: contructor
+size:2;empty:0;str=[P(2.0, 3.0, 0.0), P(0.0, 0.0, 3.0)]
+line 212: print_item2str point2str_Y
+size:2;empty:0;str=[Y: 3, Y: 0]
+line 213: operator=
+size:2;empty:0;str=[P(2.0, 3.0, 0.0), P(0.0, 0.0, 3.0)]
+line 214: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 0, Z: 3]
+line 215: indexOf P(2.0, 0.0, 0.0)
+Result: 0
+line 216: print_item2str point2str_Y
+size:2;empty:0;str=[Y: 3, Y: 0]
+line 217: add P(1.0, 2.0, 1.0)
+line 218: print_item2str point2str_Y
+size:3;empty:0;str=[Y: 3, Y: 0, Y: 2]
+line 219: contructor
+size:3;empty:0;str=[P(2.0, 3.0, 0.0), P(0.0, 0.0, 3.0), P(1.0, 2.0, 1.0)]
+line 220: print_item2str point2str_Z
+size:3;empty:0;str=[Z: 0, Z: 3, Z: 1]
+line 221: indexOf P(2.0, 3.0, 2.0)
+Result: -1
+line 222: print_item2str point2str
+size:3;empty:0;str=[P(2, 3, 0), P(0, 0, 3), P(1, 2, 1)]
+line 223: add P(2.0, 2.0, 2.0)
+line 224: print_item2str point2str_Z
+size:4;empty:0;str=[Z: 0, Z: 3, Z: 1, Z: 2]
+line 225: removeItem P(0.0, 0.0, 1.0) pointRemove
+Result: true
+line 226: print_item2str point2str_Z
+size:3;empty:0;str=[Z: 0, Z: 3, Z: 2]
+line 227: Iterator_for
+P(2.0, 3.0, 0.0) P(0.0, 0.0, 3.0) P(2.0, 2.0, 2.0) 
+line 228: print_item2str point2str_X
+size:3;empty:0;str=[X: 2, X: 0, X: 2]
+line 229: removeAt 4
+Error: Out of range exception: Index is out of range!
+line 230: print_item2str point2str_Z
+size:3;empty:0;str=[Z: 0, Z: 3, Z: 2]
+line 231: contains P(3.0, 0.0, 0.0)
+Result: true
+line 232: print_item2str point2str
+size:3;empty:0;str=[P(2, 3, 0), P(0, 0, 3), P(2, 2, 2)]
+line 233: add P(1.0, 0.0, 1.0)
+line 234: print_item2str point2str
+size:4;empty:0;str=[P(2, 3, 0), P(0, 0, 3), P(2, 2, 2), P(1, 0, 1)]
+line 235: removeItem P(3.0, 0.0, 2.0) pointRemove
+Result: true
+line 236: print_item2str point2str_X
+size:3;empty:0;str=[X: 2, X: 0, X: 1]
+line 237: add P(0.0, 3.0, 1.0)
+line 238: print_item2str point2str_Y
+size:4;empty:0;str=[Y: 3, Y: 0, Y: 0, Y: 3]
+line 239: indexOf P(3.0, 0.0, 3.0)
+Result: 1
+line 240: print_item2str point2str_Y
+size:4;empty:0;str=[Y: 3, Y: 0, Y: 0, Y: 3]
+line 241: contains P(1.0, 0.0, 2.0)
+Result: false
+line 242: print_item2str point2str_X
+size:4;empty:0;str=[X: 2, X: 0, X: 1, X: 0]
+line 243: contains P(0.0, 1.0, 1.0)
+Result: true
+line 244: print_item2str point2str_Y
+size:4;empty:0;str=[Y: 3, Y: 0, Y: 0, Y: 3]
+line 245: add P(2.0, 1.0, 2.0)
+line 246: print_item2str point2str
+size:5;empty:0;str=[P(2, 3, 0), P(0, 0, 3), P(1, 0, 1), P(0, 3, 1), P(2, 1, 2)]
+line 247: get -1
+Error: Out of range exception: Index is out of range!
+line 248: print_item2str point2str
+size:5;empty:0;str=[P(2, 3, 0), P(0, 0, 3), P(1, 0, 1), P(0, 3, 1), P(2, 1, 2)]
+line 249: clear
+line 250: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 251: contains P(2.0, 3.0, 0.0)
+Result: false
+line 252: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 253: add_index 0 P(0.0, 0.0, 2.0)
+line 254: print_item2str point2str
+size:1;empty:0;str=[P(0, 0, 2)]
+line 255: Iterator_for
+P(0.0, 0.0, 2.0) 
+line 256: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 257: get -1
+Error: Out of range exception: Index is out of range!
+line 258: print_item2str point2str
+size:1;empty:0;str=[P(0, 0, 2)]
+line 259: add_index -1 P(1.0, 2.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 260: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 261: removeItem P(0.0, 1.0, 1.0) pointRemove
+Result: false
+line 262: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 263: removeItem P(1.0, 1.0, 0.0) pointRemove
+Result: false
+line 264: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 265: operator=
+size:1;empty:0;str=[P(0.0, 0.0, 2.0)]
+line 266: print_item2str point2str_X
+size:1;empty:0;str=[X: 0]
+line 267: contains P(1.0, 0.0, 2.0)
+Result: true
+line 268: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 269: indexOf P(1.0, 1.0, 1.0)
+Result: -1
+line 270: print_item2str point2str_X
+size:1;empty:0;str=[X: 0]
+line 271: removeItem P(1.0, 3.0, 0.0) pointRemove
+Result: false
+line 272: print_item2str point2str
+size:1;empty:0;str=[P(0, 0, 2)]
+line 273: Iterator_for
+P(0.0, 0.0, 2.0) 
+line 274: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 275: operator=
+size:1;empty:0;str=[P(0.0, 0.0, 2.0)]
+line 276: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 277: removeAt 0
+Result: P(0.0, 0.0, 2.0)
+line 278: print_item2str point2str
+size:0;empty:1;str=[]
+line 279: contains P(0.0, 1.0, 3.0)
+Result: false
+line 280: print_item2str point2str
+size:0;empty:1;str=[]
+line 281: contains P(1.0, 1.0, 3.0)
+Result: false
+line 282: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 283: contructor
+size:0;empty:1;str=[]
+line 284: print_item2str point2str
+size:0;empty:1;str=[]
+line 285: contains P(0.0, 2.0, 0.0)
+Result: false
+line 286: print_item2str point2str
+size:0;empty:1;str=[]
+line 287: add_index -1 P(1.0, 1.0, 3.0)
+Error: Out of range exception: Index is out of range!
+line 288: print_item2str point2str
+size:0;empty:1;str=[]
+line 289: removeItem P(2.0, 3.0, 2.0) pointRemove
+Result: false
+line 290: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 291: removeItem P(3.0, 1.0, 0.0) pointRemove
+Result: false
+line 292: print_item2str point2str
+size:0;empty:1;str=[]
+line 293: add P(2.0, 0.0, 0.0)
+line 294: print_item2str point2str_X
+size:1;empty:0;str=[X: 2]
+line 295: removeAt 0
+Result: P(2.0, 0.0, 0.0)
+line 296: print_item2str point2str
+size:0;empty:1;str=[]
+line 297: clear
+line 298: print_item2str point2str
+size:0;empty:1;str=[]
+line 299: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 300: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 301: add_index -1 P(0.0, 2.0, 0.0)
+Error: Out of range exception: Index is out of range!
+line 302: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 303: add_index 0 P(1.0, 1.0, 2.0)
+line 304: print_item2str point2str_X
+size:1;empty:0;str=[X: 1]
+line 305: add P(1.0, 2.0, 1.0)
+line 306: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 2, Z: 1]
+line 307: indexOf P(3.0, 1.0, 0.0)
+Result: -1
+line 308: print_item2str point2str
+size:2;empty:0;str=[P(1, 1, 2), P(1, 2, 1)]
+line 309: contructor
+size:2;empty:0;str=[P(1.0, 1.0, 2.0), P(1.0, 2.0, 1.0)]
+line 310: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 2, Z: 1]
+line 311: clear
+line 312: print_item2str point2str
+size:0;empty:1;str=[]
+line 313: add_index -1 P(2.0, 1.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 314: print_item2str point2str
+size:0;empty:1;str=[]
+line 315: contructor
+size:0;empty:1;str=[]
+line 316: print_item2str point2str
+size:0;empty:1;str=[]
+line 317: add_index -1 P(1.0, 2.0, 0.0)
+Error: Out of range exception: Index is out of range!
+line 318: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 319: operator=
+size:0;empty:1;str=[]
+line 320: print_item2str point2str
+size:0;empty:1;str=[]
+line 321: removeItem P(2.0, 3.0, 2.0) pointRemove
+Result: false
+line 322: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 323: removeItem P(1.0, 2.0, 1.0) pointRemove
+Result: false
+line 324: print_item2str point2str
+size:0;empty:1;str=[]
+line 325: add P(1.0, 1.0, 0.0)
+line 326: print_item2str point2str
+size:1;empty:0;str=[P(1, 1, 0)]
+line 327: operator=
+size:1;empty:0;str=[P(1.0, 1.0, 0.0)]
+line 328: print_item2str point2str_X
+size:1;empty:0;str=[X: 1]
+line 329: add P(2.0, 0.0, 2.0)
+line 330: print_item2str point2str_Y
+size:2;empty:0;str=[Y: 1, Y: 0]
+line 331: Iterator_for
+P(1.0, 1.0, 0.0) P(2.0, 0.0, 2.0) 
+line 332: print_item2str point2str
+size:2;empty:0;str=[P(1, 1, 0), P(2, 0, 2)]
+line 333: add P(0.0, 0.0, 3.0)
+line 334: print_item2str point2str
+size:3;empty:0;str=[P(1, 1, 0), P(2, 0, 2), P(0, 0, 3)]
+line 335: clear
+line 336: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 337: Iterator_for
+
+line 338: print_item2str point2str
+size:0;empty:1;str=[]
+line 339: get -1
+Error: Out of range exception: Index is out of range!
+line 340: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 341: Iterator_for
+
+line 342: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 343: Iterator_for
+
+line 344: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 345: removeAt 0
+Error: Out of range exception: Index is out of range!
+line 346: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 347: Iterator_for
+
+line 348: print_item2str point2str
+size:0;empty:1;str=[]
+line 349: removeAt 0
+Error: Out of range exception: Index is out of range!
+line 350: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 351: contains P(0.0, 1.0, 2.0)
+Result: false
+line 352: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 353: add P(3.0, 3.0, 0.0)
+line 354: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 0]
+line 355: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 356: print_item2str point2str
+size:1;empty:0;str=[P(3, 3, 0)]
+line 357: operator=
+size:1;empty:0;str=[P(3.0, 3.0, 0.0)]
+line 358: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 0]
+line 359: clear
+line 360: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 361: indexOf P(3.0, 1.0, 0.0)
+Result: -1
+line 362: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 363: add_index 0 P(1.0, 0.0, 1.0)
+line 364: print_item2str point2str
+size:1;empty:0;str=[P(1, 0, 1)]
+line 365: clear
+line 366: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 367: Iterator_for
+
+line 368: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 369: operator=
+size:0;empty:1;str=[]
+line 370: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 371: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 372: print_item2str point2str
+size:0;empty:1;str=[]
+line 373: add P(1.0, 3.0, 3.0)
+line 374: print_item2str point2str
+size:1;empty:0;str=[P(1, 3, 3)]
+line 375: indexOf P(3.0, 1.0, 0.0)
+Result: -1
+line 376: print_item2str point2str_X
+size:1;empty:0;str=[X: 1]
+line 377: add P(0.0, 3.0, 0.0)
+line 378: print_item2str point2str_X
+size:2;empty:0;str=[X: 1, X: 0]
+line 379: add_index 2 P(3.0, 0.0, 1.0)
+line 380: print_item2str point2str_Z
+size:3;empty:0;str=[Z: 3, Z: 0, Z: 1]
+line 381: removeAt 0
+Result: P(1.0, 3.0, 3.0)
+line 382: print_item2str point2str
+size:2;empty:0;str=[P(0, 3, 0), P(3, 0, 1)]
+line 383: contains P(0.0, 3.0, 0.0)
+Result: true
+line 384: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 0, Z: 1]
+line 385: Iterator_for
+P(0.0, 3.0, 0.0) P(3.0, 0.0, 1.0) 
+line 386: print_item2str point2str_Y
+size:2;empty:0;str=[Y: 3, Y: 0]
+line 387: operator=
+size:2;empty:0;str=[P(0.0, 3.0, 0.0), P(3.0, 0.0, 1.0)]
+line 388: print_item2str point2str
+size:2;empty:0;str=[P(0, 3, 0), P(3, 0, 1)]
+line 389: get 1
+Result: P(3.0, 0.0, 1.0)
+line 390: print_item2str point2str_X
+size:2;empty:0;str=[X: 0, X: 3]
+line 391: contructor
+size:2;empty:0;str=[P(0.0, 3.0, 0.0), P(3.0, 0.0, 1.0)]
+line 392: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 0, Z: 1]
+line 393: clear
+line 394: print_item2str point2str
+size:0;empty:1;str=[]
+line 395: add_index 0 P(0.0, 3.0, 3.0)
+line 396: print_item2str point2str
+size:1;empty:0;str=[P(0, 3, 3)]
+line 397: indexOf P(0.0, 3.0, 2.0)
+Result: -1
+line 398: print_item2str point2str
+size:1;empty:0;str=[P(0, 3, 3)]
+line 399: get -1
+Error: Out of range exception: Index is out of range!
+line 400: print_item2str point2str_X
+size:1;empty:0;str=[X: 0]
+line 401: indexOf P(3.0, 2.0, 2.0)
+Result: -1
+line 402: print_item2str point2str
+size:1;empty:0;str=[P(0, 3, 3)]
+line 403: Iterator_for
+P(0.0, 3.0, 3.0) 
+line 404: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 3]
+line 405: removeItem P(2.0, 1.0, 1.0) pointRemove
+Result: false
+line 406: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 3]
+line 407: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 408: print_item2str point2str_X
+size:1;empty:0;str=[X: 0]
+line 409: add P(1.0, 0.0, 3.0)
+line 410: print_item2str point2str_X
+size:2;empty:0;str=[X: 0, X: 1]
+line 411: clear
+line 412: print_item2str point2str
+size:0;empty:1;str=[]
+line 413: add P(2.0, 3.0, 1.0)
+line 414: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 3]
+line 415: add P(2.0, 3.0, 0.0)
+line 416: print_item2str point2str
+size:2;empty:0;str=[P(2, 3, 1), P(2, 3, 0)]
+line 417: Iterator_for
+P(2.0, 3.0, 1.0) P(2.0, 3.0, 0.0) 
+line 418: print_item2str point2str
+size:2;empty:0;str=[P(2, 3, 1), P(2, 3, 0)]
+line 419: removeItem P(1.0, 0.0, 1.0) pointRemove
+Result: true
+line 420: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 3]
+line 421: indexOf P(3.0, 1.0, 3.0)
+Result: -1
+line 422: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 3]
+line 423: add P(1.0, 3.0, 3.0)
+line 424: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 0, Z: 3]
+line 425: contains P(1.0, 1.0, 3.0)
+Result: true
+line 426: print_item2str point2str
+size:2;empty:0;str=[P(2, 3, 0), P(1, 3, 3)]
+line 427: contains P(2.0, 3.0, 1.0)
+Result: false
+line 428: print_item2str point2str
+size:2;empty:0;str=[P(2, 3, 0), P(1, 3, 3)]
+line 429: removeItem P(2.0, 0.0, 2.0) pointRemove
+Result: false
+line 430: print_item2str point2str
+size:2;empty:0;str=[P(2, 3, 0), P(1, 3, 3)]
+line 431: add_index 1 P(3.0, 0.0, 1.0)
+line 432: print_item2str point2str_Y
+size:3;empty:0;str=[Y: 3, Y: 0, Y: 3]
+line 433: contructor
+size:3;empty:0;str=[P(2.0, 3.0, 0.0), P(3.0, 0.0, 1.0), P(1.0, 3.0, 3.0)]
+line 434: print_item2str point2str_Z
+size:3;empty:0;str=[Z: 0, Z: 1, Z: 3]
+line 435: add P(0.0, 1.0, 3.0)
+line 436: print_item2str point2str
+size:4;empty:0;str=[P(2, 3, 0), P(3, 0, 1), P(1, 3, 3), P(0, 1, 3)]
+line 437: add_index -1 P(0.0, 0.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 438: print_item2str point2str_X
+size:4;empty:0;str=[X: 2, X: 3, X: 1, X: 0]
+line 439: operator=
+size:4;empty:0;str=[P(2.0, 3.0, 0.0), P(3.0, 0.0, 1.0), P(1.0, 3.0, 3.0), P(0.0, 1.0, 3.0)]
+line 440: print_item2str point2str_Z
+size:4;empty:0;str=[Z: 0, Z: 1, Z: 3, Z: 3]
+line 441: Iterator_for
+P(2.0, 3.0, 0.0) P(3.0, 0.0, 1.0) P(1.0, 3.0, 3.0) P(0.0, 1.0, 3.0) 
+line 442: print_item2str point2str_Y
+size:4;empty:0;str=[Y: 3, Y: 0, Y: 3, Y: 1]
+line 443: Iterator_for
+P(2.0, 3.0, 0.0) P(3.0, 0.0, 1.0) P(1.0, 3.0, 3.0) P(0.0, 1.0, 3.0) 
+line 444: print_item2str point2str
+size:4;empty:0;str=[P(2, 3, 0), P(3, 0, 1), P(1, 3, 3), P(0, 1, 3)]
+line 445: contains P(2.0, 0.0, 1.0)
+Result: true
+line 446: print_item2str point2str
+size:4;empty:0;str=[P(2, 3, 0), P(3, 0, 1), P(1, 3, 3), P(0, 1, 3)]
+line 447: contains P(2.0, 3.0, 0.0)
+Result: true
+line 448: print_item2str point2str
+size:4;empty:0;str=[P(2, 3, 0), P(3, 0, 1), P(1, 3, 3), P(0, 1, 3)]
+line 449: contains P(0.0, 0.0, 1.0)
+Result: true
+line 450: print_item2str point2str
+size:4;empty:0;str=[P(2, 3, 0), P(3, 0, 1), P(1, 3, 3), P(0, 1, 3)]
+line 451: get 0
+Result: P(2.0, 3.0, 0.0)
+line 452: print_item2str point2str_X
+size:4;empty:0;str=[X: 2, X: 3, X: 1, X: 0]
+line 453: get 2
+Result: P(1.0, 3.0, 3.0)
+line 454: print_item2str point2str_X
+size:4;empty:0;str=[X: 2, X: 3, X: 1, X: 0]
+line 455: add_index 1 P(0.0, 2.0, 2.0)
+line 456: print_item2str point2str_Z
+size:5;empty:0;str=[Z: 0, Z: 2, Z: 1, Z: 3, Z: 3]
+line 457: indexOf P(0.0, 3.0, 1.0)
+Result: 2
+line 458: print_item2str point2str
+size:5;empty:0;str=[P(2, 3, 0), P(0, 2, 2), P(3, 0, 1), P(1, 3, 3), P(0, 1, 3)]
+line 459: add P(0.0, 2.0, 3.0)
+line 460: print_item2str point2str
+size:6;empty:0;str=[P(2, 3, 0), P(0, 2, 2), P(3, 0, 1), P(1, 3, 3), P(0, 1, 3), P(0, 2, 3)]
+line 461: add_index 6 P(2.0, 1.0, 3.0)
+line 462: print_item2str point2str_Y
+size:7;empty:0;str=[Y: 3, Y: 2, Y: 0, Y: 3, Y: 1, Y: 2, Y: 1]
+line 463: get 2
+Result: P(3.0, 0.0, 1.0)
+line 464: print_item2str point2str_Y
+size:7;empty:0;str=[Y: 3, Y: 2, Y: 0, Y: 3, Y: 1, Y: 2, Y: 1]
+line 465: add_index 2 P(2.0, 0.0, 0.0)
+line 466: print_item2str point2str
+size:8;empty:0;str=[P(2, 3, 0), P(0, 2, 2), P(2, 0, 0), P(3, 0, 1), P(1, 3, 3), P(0, 1, 3), P(0, 2, 3), P(2, 1, 3)]
+line 467: removeAt 8
+Error: Out of range exception: Index is out of range!
+line 468: print_item2str point2str_Z
+size:8;empty:0;str=[Z: 0, Z: 2, Z: 0, Z: 1, Z: 3, Z: 3, Z: 3, Z: 3]
+line 469: add P(1.0, 1.0, 2.0)
+line 470: print_item2str point2str
+size:9;empty:0;str=[P(2, 3, 0), P(0, 2, 2), P(2, 0, 0), P(3, 0, 1), P(1, 3, 3), P(0, 1, 3), P(0, 2, 3), P(2, 1, 3), P(1, 1, 2)]
+line 471: contructor
+size:9;empty:0;str=[P(2.0, 3.0, 0.0), P(0.0, 2.0, 2.0), P(2.0, 0.0, 0.0), P(3.0, 0.0, 1.0), P(1.0, 3.0, 3.0), P(0.0, 1.0, 3.0), P(0.0, 2.0, 3.0), P(2.0, 1.0, 3.0), P(1.0, 1.0, 2.0)]
+line 472: print_item2str point2str_X
+size:9;empty:0;str=[X: 2, X: 0, X: 2, X: 3, X: 1, X: 0, X: 0, X: 2, X: 1]
+line 473: operator=
+size:9;empty:0;str=[P(2.0, 3.0, 0.0), P(0.0, 2.0, 2.0), P(2.0, 0.0, 0.0), P(3.0, 0.0, 1.0), P(1.0, 3.0, 3.0), P(0.0, 1.0, 3.0), P(0.0, 2.0, 3.0), P(2.0, 1.0, 3.0), P(1.0, 1.0, 2.0)]
+line 474: print_item2str point2str_Z
+size:9;empty:0;str=[Z: 0, Z: 2, Z: 0, Z: 1, Z: 3, Z: 3, Z: 3, Z: 3, Z: 2]
+line 475: add P(2.0, 1.0, 3.0)
+line 476: print_item2str point2str_X
+size:10;empty:0;str=[X: 2, X: 0, X: 2, X: 3, X: 1, X: 0, X: 0, X: 2, X: 1, X: 2]
+line 477: add P(0.0, 0.0, 1.0)
+line 478: print_item2str point2str_X
+size:11;empty:0;str=[X: 2, X: 0, X: 2, X: 3, X: 1, X: 0, X: 0, X: 2, X: 1, X: 2, X: 0]
+line 479: removeItem P(3.0, 2.0, 3.0) pointRemove
+Result: true
+line 480: print_item2str point2str_Z
+size:10;empty:0;str=[Z: 0, Z: 2, Z: 0, Z: 1, Z: 3, Z: 3, Z: 3, Z: 2, Z: 3, Z: 1]
+line 481: removeAt 9
+Result: P(0.0, 0.0, 1.0)
+line 482: print_item2str point2str
+size:9;empty:0;str=[P(2, 3, 0), P(0, 2, 2), P(2, 0, 0), P(3, 0, 1), P(0, 1, 3), P(0, 2, 3), P(2, 1, 3), P(1, 1, 2), P(2, 1, 3)]
+line 483: add_index 8 P(2.0, 3.0, 2.0)
+line 484: print_item2str point2str_Y
+size:10;empty:0;str=[Y: 3, Y: 2, Y: 0, Y: 0, Y: 1, Y: 2, Y: 1, Y: 1, Y: 3, Y: 1]
+line 485: add P(0.0, 3.0, 3.0)
+line 486: print_item2str point2str_Z
+size:11;empty:0;str=[Z: 0, Z: 2, Z: 0, Z: 1, Z: 3, Z: 3, Z: 3, Z: 2, Z: 2, Z: 3, Z: 3]
+line 487: clear
+line 488: print_item2str point2str
+size:0;empty:1;str=[]
+line 489: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 490: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 491: add_index -1 P(2.0, 1.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 492: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 493: operator=
+size:0;empty:1;str=[]
+line 494: print_item2str point2str
+size:0;empty:1;str=[]
+line 495: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 496: print_item2str point2str
+size:0;empty:1;str=[]
+line 497: add P(3.0, 1.0, 2.0)
+line 498: print_item2str point2str_X
+size:1;empty:0;str=[X: 3]
+line 499: Iterator_for
+P(3.0, 1.0, 2.0) 
+line 500: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 501: add_index -1 P(0.0, 0.0, 0.0)
+Error: Out of range exception: Index is out of range!
+line 502: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 1]
+line 503: operator=
+size:1;empty:0;str=[P(3.0, 1.0, 2.0)]
+line 504: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 1]
+line 505: add_index 0 P(3.0, 0.0, 2.0)
+line 506: print_item2str point2str
+size:2;empty:0;str=[P(3, 0, 2), P(3, 1, 2)]
+line 507: clear
+line 508: print_item2str point2str
+size:0;empty:1;str=[]
+line 509: add P(0.0, 0.0, 3.0)
+line 510: print_item2str point2str
+size:1;empty:0;str=[P(0, 0, 3)]
+line 511: contructor
+size:1;empty:0;str=[P(0.0, 0.0, 3.0)]
+line 512: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 3]
+line 513: clear
+line 514: print_item2str point2str
+size:0;empty:1;str=[]
+line 515: get 0
+Error: Out of range exception: Index is out of range!
+line 516: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 517: removeItem P(0.0, 2.0, 3.0) pointRemove
+Result: false
+line 518: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 519: add P(0.0, 3.0, 1.0)
+line 520: print_item2str point2str
+size:1;empty:0;str=[P(0, 3, 1)]
+line 521: Iterator_for
+P(0.0, 3.0, 1.0) 
+line 522: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 1]
+line 523: removeAt 0
+Result: P(0.0, 3.0, 1.0)
+line 524: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 525: get 0
+Error: Out of range exception: Index is out of range!
+line 526: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 527: removeAt 0
+Error: Out of range exception: Index is out of range!
+line 528: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 529: operator=
+size:0;empty:1;str=[]
+line 530: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 531: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 532: print_item2str point2str
+size:0;empty:1;str=[]
+line 533: add_index 0 P(0.0, 2.0, 1.0)
+line 534: print_item2str point2str
+size:1;empty:0;str=[P(0, 2, 1)]
+line 535: operator=
+size:1;empty:0;str=[P(0.0, 2.0, 1.0)]
+line 536: print_item2str point2str_X
+size:1;empty:0;str=[X: 0]
+line 537: add_index 0 P(0.0, 1.0, 1.0)
+line 538: print_item2str point2str
+size:2;empty:0;str=[P(0, 1, 1), P(0, 2, 1)]
+line 539: operator=
+size:2;empty:0;str=[P(0.0, 1.0, 1.0), P(0.0, 2.0, 1.0)]
+line 540: print_item2str point2str_X
+size:2;empty:0;str=[X: 0, X: 0]
+line 541: contains P(0.0, 2.0, 0.0)
+Result: false
+line 542: print_item2str point2str_X
+size:2;empty:0;str=[X: 0, X: 0]
+line 543: operator=
+size:2;empty:0;str=[P(0.0, 1.0, 1.0), P(0.0, 2.0, 1.0)]
+line 544: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 1, Z: 1]
+line 545: indexOf P(1.0, 1.0, 2.0)
+Result: -1
+line 546: print_item2str point2str
+size:2;empty:0;str=[P(0, 1, 1), P(0, 2, 1)]
+line 547: operator=
+size:2;empty:0;str=[P(0.0, 1.0, 1.0), P(0.0, 2.0, 1.0)]
+line 548: print_item2str point2str
+size:2;empty:0;str=[P(0, 1, 1), P(0, 2, 1)]
+line 549: contructor
+size:2;empty:0;str=[P(0.0, 1.0, 1.0), P(0.0, 2.0, 1.0)]
+line 550: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 1, Z: 1]
+line 551: removeAt 0
+Result: P(0.0, 1.0, 1.0)
+line 552: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 2]
+line 553: removeAt 0
+Result: P(0.0, 2.0, 1.0)
+line 554: print_item2str point2str
+size:0;empty:1;str=[]
+line 555: indexOf P(1.0, 1.0, 0.0)
+Result: -1
+line 556: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 557: contains P(1.0, 3.0, 1.0)
+Result: false
+line 558: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 559: contains P(1.0, 1.0, 3.0)
+Result: false
+line 560: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 561: add P(1.0, 1.0, 2.0)
+line 562: print_item2str point2str
+size:1;empty:0;str=[P(1, 1, 2)]
+line 563: contructor
+size:1;empty:0;str=[P(1.0, 1.0, 2.0)]
+line 564: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 1]
+line 565: operator=
+size:1;empty:0;str=[P(1.0, 1.0, 2.0)]
+line 566: print_item2str point2str
+size:1;empty:0;str=[P(1, 1, 2)]
+line 567: add_index 1 P(2.0, 0.0, 3.0)
+line 568: print_item2str point2str_Y
+size:2;empty:0;str=[Y: 1, Y: 0]
+line 569: operator=
+size:2;empty:0;str=[P(1.0, 1.0, 2.0), P(2.0, 0.0, 3.0)]
+line 570: print_item2str point2str_X
+size:2;empty:0;str=[X: 1, X: 2]
+line 571: removeItem P(0.0, 3.0, 2.0) pointRemove
+Result: true
+line 572: print_item2str point2str
+size:1;empty:0;str=[P(2, 0, 3)]
+line 573: operator=
+size:1;empty:0;str=[P(2.0, 0.0, 3.0)]
+line 574: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 575: get 0
+Result: P(2.0, 0.0, 3.0)
+line 576: print_item2str point2str_X
+size:1;empty:0;str=[X: 2]
+line 577: get 0
+Result: P(2.0, 0.0, 3.0)
+line 578: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 579: Iterator_for
+P(2.0, 0.0, 3.0) 
+line 580: print_item2str point2str
+size:1;empty:0;str=[P(2, 0, 3)]
+line 581: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 582: print_item2str point2str
+size:1;empty:0;str=[P(2, 0, 3)]
+line 583: contains P(3.0, 3.0, 3.0)
+Result: true
+line 584: print_item2str point2str_X
+size:1;empty:0;str=[X: 2]
+line 585: removeAt 1
+Error: Out of range exception: Index is out of range!
+line 586: print_item2str point2str
+size:1;empty:0;str=[P(2, 0, 3)]
+line 587: removeItem P(0.0, 0.0, 0.0) pointRemove
+Result: false
+line 588: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 589: add_index -1 P(2.0, 1.0, 0.0)
+Error: Out of range exception: Index is out of range!
+line 590: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 3]
+line 591: contructor
+size:1;empty:0;str=[P(2.0, 0.0, 3.0)]
+line 592: print_item2str point2str_X
+size:1;empty:0;str=[X: 2]
+line 593: operator=
+size:1;empty:0;str=[P(2.0, 0.0, 3.0)]
+line 594: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 3]
+line 595: contains P(3.0, 2.0, 1.0)
+Result: false
+line 596: print_item2str point2str
+size:1;empty:0;str=[P(2, 0, 3)]
+line 597: contains P(3.0, 1.0, 2.0)
+Result: false
+line 598: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 599: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 600: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 601: clear
+line 602: print_item2str point2str
+size:0;empty:1;str=[]
+line 603: contructor
+size:0;empty:1;str=[]
+line 604: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 605: add P(3.0, 2.0, 1.0)
+line 606: print_item2str point2str
+size:1;empty:0;str=[P(3, 2, 1)]
+line 607: removeItem P(3.0, 2.0, 1.0) pointRemove
+Result: true
+line 608: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 609: operator=
+size:0;empty:1;str=[]
+line 610: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 611: contains P(2.0, 0.0, 1.0)
+Result: false
+line 612: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 613: contructor
+size:0;empty:1;str=[]
+line 614: print_item2str point2str
+size:0;empty:1;str=[]
+line 615: add P(1.0, 1.0, 3.0)
+line 616: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 1]
+line 617: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 618: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 1]
+line 619: operator=
+size:1;empty:0;str=[P(1.0, 1.0, 3.0)]
+line 620: print_item2str point2str
+size:1;empty:0;str=[P(1, 1, 3)]
+line 621: clear
+line 622: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 623: Iterator_for
+
+line 624: print_item2str point2str
+size:0;empty:1;str=[]
+line 625: Iterator_for
+
+line 626: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 627: removeItem P(1.0, 1.0, 1.0) pointRemove
+Result: false
+line 628: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 629: get 0
+Error: Out of range exception: Index is out of range!
+line 630: print_item2str point2str
+size:0;empty:1;str=[]
+line 631: clear
+line 632: print_item2str point2str
+size:0;empty:1;str=[]
+line 633: add_index -1 P(2.0, 0.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 634: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 635: removeAt 0
+Error: Out of range exception: Index is out of range!
+line 636: print_item2str point2str
+size:0;empty:1;str=[]
+line 637: removeAt 0
+Error: Out of range exception: Index is out of range!
+line 638: print_item2str point2str
+size:0;empty:1;str=[]
+line 639: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 640: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 641: removeItem P(2.0, 1.0, 0.0) pointRemove
+Result: false
+line 642: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 643: add P(0.0, 2.0, 2.0)
+line 644: print_item2str point2str_X
+size:1;empty:0;str=[X: 0]
+line 645: contructor
+size:1;empty:0;str=[P(0.0, 2.0, 2.0)]
+line 646: print_item2str point2str
+size:1;empty:0;str=[P(0, 2, 2)]
+line 647: contains P(0.0, 1.0, 1.0)
+Result: false
+line 648: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 2]
+line 649: Iterator_for
+P(0.0, 2.0, 2.0) 
+line 650: print_item2str point2str_X
+size:1;empty:0;str=[X: 0]
+line 651: add_index -1 P(1.0, 2.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 652: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 653: removeItem P(1.0, 1.0, 2.0) pointRemove
+Result: true
+line 654: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 655: removeAt 1
+Error: Out of range exception: Index is out of range!
+line 656: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 657: operator=
+size:0;empty:1;str=[]
+line 658: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 659: Iterator_for
+
+line 660: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 661: add_index 0 P(0.0, 1.0, 1.0)
+line 662: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 1]
+line 663: add_index 2 P(0.0, 0.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 664: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 1]
+line 665: contructor
+size:1;empty:0;str=[P(0.0, 1.0, 1.0)]
+line 666: print_item2str point2str
+size:1;empty:0;str=[P(0, 1, 1)]
+line 667: removeAt 0
+Result: P(0.0, 1.0, 1.0)
+line 668: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 669: indexOf P(3.0, 2.0, 2.0)
+Result: -1
+line 670: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 671: operator=
+size:0;empty:1;str=[]
+line 672: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 673: contains P(2.0, 1.0, 0.0)
+Result: false
+line 674: print_item2str point2str
+size:0;empty:1;str=[]
+line 675: indexOf P(2.0, 3.0, 1.0)
+Result: -1
+line 676: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 677: Iterator_for
+
+line 678: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 679: indexOf P(2.0, 0.0, 3.0)
+Result: -1
+line 680: print_item2str point2str
+size:0;empty:1;str=[]
+line 681: clear
+line 682: print_item2str point2str
+size:0;empty:1;str=[]
+line 683: operator=
+size:0;empty:1;str=[]
+line 684: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 685: clear
+line 686: print_item2str point2str
+size:0;empty:1;str=[]
+line 687: contains P(2.0, 3.0, 0.0)
+Result: false
+line 688: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 689: clear
+line 690: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 691: add_index 0 P(3.0, 2.0, 1.0)
+line 692: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 2]
+line 693: contructor
+size:1;empty:0;str=[P(3.0, 2.0, 1.0)]
+line 694: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 1]
+line 695: indexOf P(2.0, 0.0, 0.0)
+Result: -1
+line 696: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 1]
+line 697: removeItem P(0.0, 2.0, 1.0) pointRemove
+Result: true
+line 698: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 699: contains P(0.0, 1.0, 2.0)
+Result: false
+line 700: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 701: add P(0.0, 1.0, 1.0)
+line 702: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 1]
+line 703: indexOf P(1.0, 1.0, 1.0)
+Result: 0
+line 704: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 1]
+line 705: add P(1.0, 3.0, 2.0)
+line 706: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 1, Z: 2]
+line 707: Iterator_for
+P(0.0, 1.0, 1.0) P(1.0, 3.0, 2.0) 
+line 708: print_item2str point2str
+size:2;empty:0;str=[P(0, 1, 1), P(1, 3, 2)]
+line 709: clear
+line 710: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 711: add P(1.0, 2.0, 1.0)
+line 712: print_item2str point2str
+size:1;empty:0;str=[P(1, 2, 1)]
+line 713: add P(2.0, 1.0, 0.0)
+line 714: print_item2str point2str
+size:2;empty:0;str=[P(1, 2, 1), P(2, 1, 0)]
+line 715: removeItem P(2.0, 1.0, 0.0) pointRemove
+Result: true
+line 716: print_item2str point2str_X
+size:1;empty:0;str=[X: 1]
+line 717: get 2
+Error: Out of range exception: Index is out of range!
+line 718: print_item2str point2str
+size:1;empty:0;str=[P(1, 2, 1)]
+line 719: add P(1.0, 2.0, 1.0)
+line 720: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 1, Z: 1]
+line 721: add P(3.0, 1.0, 3.0)
+line 722: print_item2str point2str_Z
+size:3;empty:0;str=[Z: 1, Z: 1, Z: 3]
+line 723: get 1
+Result: P(1.0, 2.0, 1.0)
+line 724: print_item2str point2str_X
+size:3;empty:0;str=[X: 1, X: 1, X: 3]
+line 725: clear
+line 726: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 727: add_index -1 P(1.0, 0.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 728: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 729: get -1
+Error: Out of range exception: Index is out of range!
+line 730: print_item2str point2str
+size:0;empty:1;str=[]
+line 731: operator=
+size:0;empty:1;str=[]
+line 732: print_item2str point2str
+size:0;empty:1;str=[]
+line 733: add P(3.0, 0.0, 3.0)
+line 734: print_item2str point2str
+size:1;empty:0;str=[P(3, 0, 3)]
+line 735: add_index 0 P(1.0, 2.0, 0.0)
+line 736: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 0, Z: 3]
+line 737: operator=
+size:2;empty:0;str=[P(1.0, 2.0, 0.0), P(3.0, 0.0, 3.0)]
+line 738: print_item2str point2str
+size:2;empty:0;str=[P(1, 2, 0), P(3, 0, 3)]
+line 739: clear
+line 740: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 741: indexOf P(1.0, 2.0, 3.0)
+Result: -1
+line 742: print_item2str point2str
+size:0;empty:1;str=[]
+line 743: contructor
+size:0;empty:1;str=[]
+line 744: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 745: get 0
+Error: Out of range exception: Index is out of range!
+line 746: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 747: Iterator_for
+
+line 748: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 749: contains P(3.0, 0.0, 3.0)
+Result: false
+line 750: print_item2str point2str
+size:0;empty:1;str=[]
+line 751: add P(1.0, 1.0, 1.0)
+line 752: print_item2str point2str
+size:1;empty:0;str=[P(1, 1, 1)]
+line 753: get 1
+Error: Out of range exception: Index is out of range!
+line 754: print_item2str point2str
+size:1;empty:0;str=[P(1, 1, 1)]
+line 755: removeAt 1
+Error: Out of range exception: Index is out of range!
+line 756: print_item2str point2str
+size:1;empty:0;str=[P(1, 1, 1)]
+line 757: removeAt 0
+Result: P(1.0, 1.0, 1.0)
+line 758: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 759: contructor
+size:0;empty:1;str=[]
+line 760: print_item2str point2str
+size:0;empty:1;str=[]
+line 761: removeAt 0
+Error: Out of range exception: Index is out of range!
+line 762: print_item2str point2str
+size:0;empty:1;str=[]
+line 763: removeItem P(0.0, 2.0, 1.0) pointRemove
+Result: false
+line 764: print_item2str point2str
+size:0;empty:1;str=[]
+line 765: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 766: print_item2str point2str
+size:0;empty:1;str=[]
+line 767: add_index -1 P(0.0, 2.0, 2.0)
+Error: Out of range exception: Index is out of range!
+line 768: print_item2str point2str
+size:0;empty:1;str=[]
+line 769: clear
+line 770: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 771: add P(3.0, 1.0, 2.0)
+line 772: print_item2str point2str
+size:1;empty:0;str=[P(3, 1, 2)]
+line 773: add_index -1 P(1.0, 1.0, 0.0)
+Error: Out of range exception: Index is out of range!
+line 774: print_item2str point2str
+size:1;empty:0;str=[P(3, 1, 2)]
+line 775: removeAt 1
+Error: Out of range exception: Index is out of range!
+line 776: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 1]
+line 777: add_index -1 P(1.0, 0.0, 3.0)
+Error: Out of range exception: Index is out of range!
+line 778: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 779: add P(0.0, 0.0, 3.0)
+line 780: print_item2str point2str
+size:2;empty:0;str=[P(3, 1, 2), P(0, 0, 3)]
+line 781: add P(1.0, 2.0, 0.0)
+line 782: print_item2str point2str_Z
+size:3;empty:0;str=[Z: 2, Z: 3, Z: 0]
+line 783: removeItem P(2.0, 0.0, 2.0) pointRemove
+Result: true
+line 784: print_item2str point2str_Y
+size:2;empty:0;str=[Y: 0, Y: 2]
+line 785: operator=
+size:2;empty:0;str=[P(0.0, 0.0, 3.0), P(1.0, 2.0, 0.0)]
+line 786: print_item2str point2str
+size:2;empty:0;str=[P(0, 0, 3), P(1, 2, 0)]
+line 787: removeItem P(2.0, 0.0, 0.0) pointRemove
+Result: true
+line 788: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 789: Iterator_for
+P(0.0, 0.0, 3.0) 
+line 790: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 0]
+line 791: contains P(2.0, 2.0, 2.0)
+Result: false
+line 792: print_item2str point2str
+size:1;empty:0;str=[P(0, 0, 3)]
+line 793: contains P(1.0, 1.0, 0.0)
+Result: false
+line 794: print_item2str point2str
+size:1;empty:0;str=[P(0, 0, 3)]
+line 795: add P(1.0, 2.0, 0.0)
+line 796: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 3, Z: 0]
+line 797: add_index 0 P(2.0, 1.0, 1.0)
+line 798: print_item2str point2str
+size:3;empty:0;str=[P(2, 1, 1), P(0, 0, 3), P(1, 2, 0)]
+line 799: add P(1.0, 1.0, 2.0)
+line 800: print_item2str point2str_X
+size:4;empty:0;str=[X: 2, X: 0, X: 1, X: 1]
+line 801: contains P(0.0, 2.0, 1.0)
+Result: true
+line 802: print_item2str point2str_Z
+size:4;empty:0;str=[Z: 1, Z: 3, Z: 0, Z: 2]
+line 803: indexOf P(1.0, 2.0, 1.0)
+Result: 0
+line 804: print_item2str point2str_Y
+size:4;empty:0;str=[Y: 1, Y: 0, Y: 2, Y: 1]
+line 805: contains P(3.0, 1.0, 2.0)
+Result: true
+line 806: print_item2str point2str_X
+size:4;empty:0;str=[X: 2, X: 0, X: 1, X: 1]
+line 807: add_index 1 P(2.0, 0.0, 0.0)
+line 808: print_item2str point2str_X
+size:5;empty:0;str=[X: 2, X: 2, X: 0, X: 1, X: 1]
+line 809: Iterator_for
+P(2.0, 1.0, 1.0) P(2.0, 0.0, 0.0) P(0.0, 0.0, 3.0) P(1.0, 2.0, 0.0) P(1.0, 1.0, 2.0) 
+line 810: print_item2str point2str
+size:5;empty:0;str=[P(2, 1, 1), P(2, 0, 0), P(0, 0, 3), P(1, 2, 0), P(1, 1, 2)]
+line 811: clear
+line 812: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 813: add_index 0 P(1.0, 3.0, 3.0)
+line 814: print_item2str point2str_Y
+size:1;empty:0;str=[Y: 3]
+line 815: add_index 1 P(1.0, 1.0, 2.0)
+line 816: print_item2str point2str_Y
+size:2;empty:0;str=[Y: 3, Y: 1]
+line 817: add_index 0 P(1.0, 0.0, 2.0)
+line 818: print_item2str point2str_X
+size:3;empty:0;str=[X: 1, X: 1, X: 1]
+line 819: contains P(0.0, 0.0, 0.0)
+Result: false
+line 820: print_item2str point2str_X
+size:3;empty:0;str=[X: 1, X: 1, X: 1]
+line 821: Iterator_for
+P(1.0, 0.0, 2.0) P(1.0, 3.0, 3.0) P(1.0, 1.0, 2.0) 
+line 822: print_item2str point2str
+size:3;empty:0;str=[P(1, 0, 2), P(1, 3, 3), P(1, 1, 2)]
+line 823: indexOf P(0.0, 3.0, 1.0)
+Result: -1
+line 824: print_item2str point2str
+size:3;empty:0;str=[P(1, 0, 2), P(1, 3, 3), P(1, 1, 2)]
+line 825: contructor
+size:3;empty:0;str=[P(1.0, 0.0, 2.0), P(1.0, 3.0, 3.0), P(1.0, 1.0, 2.0)]
+line 826: print_item2str point2str_X
+size:3;empty:0;str=[X: 1, X: 1, X: 1]
+line 827: add_index -1 P(1.0, 2.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 828: print_item2str point2str_X
+size:3;empty:0;str=[X: 1, X: 1, X: 1]
+line 829: add_index -1 P(1.0, 2.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 830: print_item2str point2str_Y
+size:3;empty:0;str=[Y: 0, Y: 3, Y: 1]
+line 831: indexOf P(1.0, 0.0, 2.0)
+Result: 0
+line 832: print_item2str point2str
+size:3;empty:0;str=[P(1, 0, 2), P(1, 3, 3), P(1, 1, 2)]
+line 833: removeItem P(2.0, 3.0, 2.0) pointRemove
+Result: true
+line 834: print_item2str point2str
+size:2;empty:0;str=[P(1, 3, 3), P(1, 1, 2)]
+line 835: operator=
+size:2;empty:0;str=[P(1.0, 3.0, 3.0), P(1.0, 1.0, 2.0)]
+line 836: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 3, Z: 2]
+line 837: Iterator_for
+P(1.0, 3.0, 3.0) P(1.0, 1.0, 2.0) 
+line 838: print_item2str point2str
+size:2;empty:0;str=[P(1, 3, 3), P(1, 1, 2)]
+line 839: removeAt 0
+Result: P(1.0, 3.0, 3.0)
+line 840: print_item2str point2str
+size:1;empty:0;str=[P(1, 1, 2)]
+line 841: contains P(0.0, 2.0, 2.0)
+Result: true
+line 842: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 843: clear
+line 844: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 845: removeItem P(2.0, 3.0, 3.0) pointRemove
+Result: false
+line 846: print_item2str point2str
+size:0;empty:1;str=[]
+line 847: operator=
+size:0;empty:1;str=[]
+line 848: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 849: operator=
+size:0;empty:1;str=[]
+line 850: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 851: add_index 0 P(2.0, 3.0, 0.0)
+line 852: print_item2str point2str
+size:1;empty:0;str=[P(2, 3, 0)]
+line 853: clear
+line 854: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 855: operator=
+size:0;empty:1;str=[]
+line 856: print_item2str point2str
+size:0;empty:1;str=[]
+line 857: contructor
+size:0;empty:1;str=[]
+line 858: print_item2str point2str
+size:0;empty:1;str=[]
+line 859: contructor
+size:0;empty:1;str=[]
+line 860: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 861: add P(1.0, 1.0, 2.0)
+line 862: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 863: get -1
+Error: Out of range exception: Index is out of range!
+line 864: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 865: add P(0.0, 3.0, 0.0)
+line 866: print_item2str point2str
+size:2;empty:0;str=[P(1, 1, 2), P(0, 3, 0)]
+line 867: clear
+line 868: print_item2str point2str
+size:0;empty:1;str=[]
+line 869: operator=
+size:0;empty:1;str=[]
+line 870: print_item2str point2str
+size:0;empty:1;str=[]
+line 871: indexOf P(1.0, 2.0, 2.0)
+Result: -1
+line 872: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 873: operator=
+size:0;empty:1;str=[]
+line 874: print_item2str point2str
+size:0;empty:1;str=[]
+line 875: get 0
+Error: Out of range exception: Index is out of range!
+line 876: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 877: operator=
+size:0;empty:1;str=[]
+line 878: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 879: indexOf P(3.0, 3.0, 1.0)
+Result: -1
+line 880: print_item2str point2str
+size:0;empty:1;str=[]
+line 881: removeItem P(2.0, 0.0, 0.0) pointRemove
+Result: false
+line 882: print_item2str point2str
+size:0;empty:1;str=[]
+line 883: add_index -1 P(2.0, 0.0, 3.0)
+Error: Out of range exception: Index is out of range!
+line 884: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 885: clear
+line 886: print_item2str point2str
+size:0;empty:1;str=[]
+line 887: operator=
+size:0;empty:1;str=[]
+line 888: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 889: operator=
+size:0;empty:1;str=[]
+line 890: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 891: indexOf P(1.0, 0.0, 3.0)
+Result: -1
+line 892: print_item2str point2str
+size:0;empty:1;str=[]
+line 893: contructor
+size:0;empty:1;str=[]
+line 894: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 895: operator=
+size:0;empty:1;str=[]
+line 896: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 897: get -1
+Error: Out of range exception: Index is out of range!
+line 898: print_item2str point2str
+size:0;empty:1;str=[]
+line 899: clear
+line 900: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 901: indexOf P(2.0, 3.0, 0.0)
+Result: -1
+line 902: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 903: add P(2.0, 2.0, 3.0)
+line 904: print_item2str point2str
+size:1;empty:0;str=[P(2, 2, 3)]
+line 905: removeAt 1
+Error: Out of range exception: Index is out of range!
+line 906: print_item2str point2str
+size:1;empty:0;str=[P(2, 2, 3)]
+line 907: removeItem P(3.0, 1.0, 1.0) pointRemove
+Result: false
+line 908: print_item2str point2str_X
+size:1;empty:0;str=[X: 2]
+line 909: operator=
+size:1;empty:0;str=[P(2.0, 2.0, 3.0)]
+line 910: print_item2str point2str_X
+size:1;empty:0;str=[X: 2]
+line 911: removeAt 0
+Result: P(2.0, 2.0, 3.0)
+line 912: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 913: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 914: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 915: indexOf P(0.0, 3.0, 0.0)
+Result: -1
+line 916: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 917: removeAt -1
+Error: Out of range exception: Index is out of range!
+line 918: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 919: clear
+line 920: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 921: operator=
+size:0;empty:1;str=[]
+line 922: print_item2str point2str
+size:0;empty:1;str=[]
+line 923: operator=
+size:0;empty:1;str=[]
+line 924: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 925: contructor
+size:0;empty:1;str=[]
+line 926: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 927: indexOf P(2.0, 1.0, 3.0)
+Result: -1
+line 928: print_item2str point2str
+size:0;empty:1;str=[]
+line 929: contructor
+size:0;empty:1;str=[]
+line 930: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 931: clear
+line 932: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 933: add P(0.0, 1.0, 2.0)
+line 934: print_item2str point2str
+size:1;empty:0;str=[P(0, 1, 2)]
+line 935: clear
+line 936: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 937: contructor
+size:0;empty:1;str=[]
+line 938: print_item2str point2str
+size:0;empty:1;str=[]
+line 939: contains P(0.0, 0.0, 3.0)
+Result: false
+line 940: print_item2str point2str
+size:0;empty:1;str=[]
+line 941: contructor
+size:0;empty:1;str=[]
+line 942: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 943: add P(1.0, 0.0, 2.0)
+line 944: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 945: add_index -1 P(3.0, 0.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 946: print_item2str point2str_Z
+size:1;empty:0;str=[Z: 2]
+line 947: Iterator_for
+P(1.0, 0.0, 2.0) 
+line 948: print_item2str point2str
+size:1;empty:0;str=[P(1, 0, 2)]
+line 949: removeAt 1
+Error: Out of range exception: Index is out of range!
+line 950: print_item2str point2str
+size:1;empty:0;str=[P(1, 0, 2)]
+line 951: add P(0.0, 0.0, 2.0)
+line 952: print_item2str point2str
+size:2;empty:0;str=[P(1, 0, 2), P(0, 0, 2)]
+line 953: get 1
+Result: P(0.0, 0.0, 2.0)
+line 954: print_item2str point2str_X
+size:2;empty:0;str=[X: 1, X: 0]
+line 955: add P(1.0, 2.0, 2.0)
+line 956: print_item2str point2str
+size:3;empty:0;str=[P(1, 0, 2), P(0, 0, 2), P(1, 2, 2)]
+line 957: indexOf P(2.0, 3.0, 0.0)
+Result: -1
+line 958: print_item2str point2str_Y
+size:3;empty:0;str=[Y: 0, Y: 0, Y: 2]
+line 959: get 3
+Error: Out of range exception: Index is out of range!
+line 960: print_item2str point2str_Z
+size:3;empty:0;str=[Z: 2, Z: 2, Z: 2]
+line 961: removeItem P(0.0, 1.0, 1.0) pointRemove
+Result: false
+line 962: print_item2str point2str_Z
+size:3;empty:0;str=[Z: 2, Z: 2, Z: 2]
+line 963: get 1
+Result: P(0.0, 0.0, 2.0)
+line 964: print_item2str point2str_X
+size:3;empty:0;str=[X: 1, X: 0, X: 1]
+line 965: add_index 3 P(0.0, 3.0, 2.0)
+line 966: print_item2str point2str
+size:4;empty:0;str=[P(1, 0, 2), P(0, 0, 2), P(1, 2, 2), P(0, 3, 2)]
+line 967: Iterator_for
+P(1.0, 0.0, 2.0) P(0.0, 0.0, 2.0) P(1.0, 2.0, 2.0) P(0.0, 3.0, 2.0) 
+line 968: print_item2str point2str
+size:4;empty:0;str=[P(1, 0, 2), P(0, 0, 2), P(1, 2, 2), P(0, 3, 2)]
+line 969: operator=
+size:4;empty:0;str=[P(1.0, 0.0, 2.0), P(0.0, 0.0, 2.0), P(1.0, 2.0, 2.0), P(0.0, 3.0, 2.0)]
+line 970: print_item2str point2str_Z
+size:4;empty:0;str=[Z: 2, Z: 2, Z: 2, Z: 2]
+line 971: contains P(2.0, 0.0, 3.0)
+Result: false
+line 972: print_item2str point2str_Z
+size:4;empty:0;str=[Z: 2, Z: 2, Z: 2, Z: 2]
+line 973: contains P(1.0, 2.0, 0.0)
+Result: false
+line 974: print_item2str point2str_Z
+size:4;empty:0;str=[Z: 2, Z: 2, Z: 2, Z: 2]
+line 975: Iterator_for
+P(1.0, 0.0, 2.0) P(0.0, 0.0, 2.0) P(1.0, 2.0, 2.0) P(0.0, 3.0, 2.0) 
+line 976: print_item2str point2str
+size:4;empty:0;str=[P(1, 0, 2), P(0, 0, 2), P(1, 2, 2), P(0, 3, 2)]
+line 977: contructor
+size:4;empty:0;str=[P(1.0, 0.0, 2.0), P(0.0, 0.0, 2.0), P(1.0, 2.0, 2.0), P(0.0, 3.0, 2.0)]
+line 978: print_item2str point2str_Y
+size:4;empty:0;str=[Y: 0, Y: 0, Y: 2, Y: 3]
+line 979: add P(3.0, 0.0, 0.0)
+line 980: print_item2str point2str_X
+size:5;empty:0;str=[X: 1, X: 0, X: 1, X: 0, X: 3]
+line 981: contains P(1.0, 0.0, 0.0)
+Result: true
+line 982: print_item2str point2str
+size:5;empty:0;str=[P(1, 0, 2), P(0, 0, 2), P(1, 2, 2), P(0, 3, 2), P(3, 0, 0)]
+line 983: indexOf P(3.0, 2.0, 0.0)
+Result: 4
+line 984: print_item2str point2str_Z
+size:5;empty:0;str=[Z: 2, Z: 2, Z: 2, Z: 2, Z: 0]
+line 985: contructor
+size:5;empty:0;str=[P(1.0, 0.0, 2.0), P(0.0, 0.0, 2.0), P(1.0, 2.0, 2.0), P(0.0, 3.0, 2.0), P(3.0, 0.0, 0.0)]
+line 986: print_item2str point2str_Z
+size:5;empty:0;str=[Z: 2, Z: 2, Z: 2, Z: 2, Z: 0]
+line 987: contains P(2.0, 3.0, 3.0)
+Result: false
+line 988: print_item2str point2str
+size:5;empty:0;str=[P(1, 0, 2), P(0, 0, 2), P(1, 2, 2), P(0, 3, 2), P(3, 0, 0)]
+line 989: operator=
+size:5;empty:0;str=[P(1.0, 0.0, 2.0), P(0.0, 0.0, 2.0), P(1.0, 2.0, 2.0), P(0.0, 3.0, 2.0), P(3.0, 0.0, 0.0)]
+line 990: print_item2str point2str_Y
+size:5;empty:0;str=[Y: 0, Y: 0, Y: 2, Y: 3, Y: 0]
+line 991: add_index -1 P(1.0, 2.0, 2.0)
+Error: Out of range exception: Index is out of range!
+line 992: print_item2str point2str_Y
+size:5;empty:0;str=[Y: 0, Y: 0, Y: 2, Y: 3, Y: 0]
+line 993: add_index 1 P(3.0, 0.0, 3.0)
+line 994: print_item2str point2str
+size:6;empty:0;str=[P(1, 0, 2), P(3, 0, 3), P(0, 0, 2), P(1, 2, 2), P(0, 3, 2), P(3, 0, 0)]
+line 995: removeAt 6
+Error: Out of range exception: Index is out of range!
+line 996: print_item2str point2str_Z
+size:6;empty:0;str=[Z: 2, Z: 3, Z: 2, Z: 2, Z: 2, Z: 0]
+line 997: add_index 4 P(1.0, 1.0, 3.0)
+line 998: print_item2str point2str_X
+size:7;empty:0;str=[X: 1, X: 3, X: 0, X: 1, X: 1, X: 0, X: 3]
+line 999: indexOf P(1.0, 0.0, 1.0)
+Result: -1
+line 1000: print_item2str point2str_X
+size:7;empty:0;str=[X: 1, X: 3, X: 0, X: 1, X: 1, X: 0, X: 3]
+line 1001: add_index 6 P(0.0, 1.0, 1.0)
+line 1002: print_item2str point2str_Z
+size:8;empty:0;str=[Z: 2, Z: 3, Z: 2, Z: 2, Z: 3, Z: 2, Z: 1, Z: 0]
+line 1003: get 5
+Result: P(0.0, 3.0, 2.0)
+line 1004: print_item2str point2str_Z
+size:8;empty:0;str=[Z: 2, Z: 3, Z: 2, Z: 2, Z: 3, Z: 2, Z: 1, Z: 0]
+line 1005: add_index 5 P(0.0, 0.0, 2.0)
+line 1006: print_item2str point2str
+size:9;empty:0;str=[P(1, 0, 2), P(3, 0, 3), P(0, 0, 2), P(1, 2, 2), P(1, 1, 3), P(0, 0, 2), P(0, 3, 2), P(0, 1, 1), P(3, 0, 0)]
+line 1007: removeItem P(1.0, 1.0, 1.0) pointRemove
+Result: true
+line 1008: print_item2str point2str
+size:8;empty:0;str=[P(1, 0, 2), P(3, 0, 3), P(0, 0, 2), P(1, 2, 2), P(1, 1, 3), P(0, 0, 2), P(0, 3, 2), P(3, 0, 0)]
+line 1009: add_index 0 P(1.0, 3.0, 0.0)
+line 1010: print_item2str point2str
+size:9;empty:0;str=[P(1, 3, 0), P(1, 0, 2), P(3, 0, 3), P(0, 0, 2), P(1, 2, 2), P(1, 1, 3), P(0, 0, 2), P(0, 3, 2), P(3, 0, 0)]
+line 1011: Iterator_for
+P(1.0, 3.0, 0.0) P(1.0, 0.0, 2.0) P(3.0, 0.0, 3.0) P(0.0, 0.0, 2.0) P(1.0, 2.0, 2.0) P(1.0, 1.0, 3.0) P(0.0, 0.0, 2.0) P(0.0, 3.0, 2.0) P(3.0, 0.0, 0.0) 
+line 1012: print_item2str point2str_Y
+size:9;empty:0;str=[Y: 3, Y: 0, Y: 0, Y: 0, Y: 2, Y: 1, Y: 0, Y: 3, Y: 0]
+line 1013: Iterator_for
+P(1.0, 3.0, 0.0) P(1.0, 0.0, 2.0) P(3.0, 0.0, 3.0) P(0.0, 0.0, 2.0) P(1.0, 2.0, 2.0) P(1.0, 1.0, 3.0) P(0.0, 0.0, 2.0) P(0.0, 3.0, 2.0) P(3.0, 0.0, 0.0) 
+line 1014: print_item2str point2str_Z
+size:9;empty:0;str=[Z: 0, Z: 2, Z: 3, Z: 2, Z: 2, Z: 3, Z: 2, Z: 2, Z: 0]
+line 1015: removeItem P(2.0, 3.0, 2.0) pointRemove
+Result: true
+line 1016: print_item2str point2str_Y
+size:8;empty:0;str=[Y: 3, Y: 0, Y: 0, Y: 2, Y: 1, Y: 0, Y: 3, Y: 0]
+line 1017: add P(2.0, 2.0, 2.0)
+line 1018: print_item2str point2str_Y
+size:9;empty:0;str=[Y: 3, Y: 0, Y: 0, Y: 2, Y: 1, Y: 0, Y: 3, Y: 0, Y: 2]
+line 1019: contructor
+size:9;empty:0;str=[P(1.0, 3.0, 0.0), P(3.0, 0.0, 3.0), P(0.0, 0.0, 2.0), P(1.0, 2.0, 2.0), P(1.0, 1.0, 3.0), P(0.0, 0.0, 2.0), P(0.0, 3.0, 2.0), P(3.0, 0.0, 0.0), P(2.0, 2.0, 2.0)]
+line 1020: print_item2str point2str_X
+size:9;empty:0;str=[X: 1, X: 3, X: 0, X: 1, X: 1, X: 0, X: 0, X: 3, X: 2]
+line 1021: get 7
+Result: P(3.0, 0.0, 0.0)
+line 1022: print_item2str point2str
+size:9;empty:0;str=[P(1, 3, 0), P(3, 0, 3), P(0, 0, 2), P(1, 2, 2), P(1, 1, 3), P(0, 0, 2), P(0, 3, 2), P(3, 0, 0), P(2, 2, 2)]
+line 1023: add_index -1 P(0.0, 2.0, 0.0)
+Error: Out of range exception: Index is out of range!
+line 1024: print_item2str point2str_Y
+size:9;empty:0;str=[Y: 3, Y: 0, Y: 0, Y: 2, Y: 1, Y: 0, Y: 3, Y: 0, Y: 2]
+line 1025: add P(1.0, 2.0, 0.0)
+line 1026: print_item2str point2str_Z
+size:10;empty:0;str=[Z: 0, Z: 3, Z: 2, Z: 2, Z: 3, Z: 2, Z: 2, Z: 0, Z: 2, Z: 0]
+line 1027: contains P(1.0, 1.0, 3.0)
+Result: true
+line 1028: print_item2str point2str_Y
+size:10;empty:0;str=[Y: 3, Y: 0, Y: 0, Y: 2, Y: 1, Y: 0, Y: 3, Y: 0, Y: 2, Y: 2]
+line 1029: clear
+line 1030: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 1031: contructor
+size:0;empty:1;str=[]
+line 1032: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 1033: operator=
+size:0;empty:1;str=[]
+line 1034: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 1035: get -1
+Error: Out of range exception: Index is out of range!
+line 1036: print_item2str point2str
+size:0;empty:1;str=[]
+line 1037: Iterator_for
+
+line 1038: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 1039: removeItem P(0.0, 3.0, 1.0) pointRemove
+Result: false
+line 1040: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 1041: get 0
+Error: Out of range exception: Index is out of range!
+line 1042: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 1043: add_index -1 P(1.0, 3.0, 1.0)
+Error: Out of range exception: Index is out of range!
+line 1044: print_item2str point2str
+size:0;empty:1;str=[]
+line 1045: Iterator_for
+
+line 1046: print_item2str point2str
+size:0;empty:1;str=[]
+line 1047: get -1
+Error: Out of range exception: Index is out of range!
+line 1048: print_item2str point2str
+size:0;empty:1;str=[]
+line 1049: contructor
+size:0;empty:1;str=[]
+line 1050: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 1051: Iterator_for
+
+line 1052: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 1053: indexOf P(1.0, 1.0, 1.0)
+Result: -1
+line 1054: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 1055: get -1
+Error: Out of range exception: Index is out of range!
+line 1056: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 1057: Iterator_for
+
+line 1058: print_item2str point2str_Y
+size:0;empty:1;str=[]
+line 1059: add_index -1 P(2.0, 3.0, 0.0)
+Error: Out of range exception: Index is out of range!
+line 1060: print_item2str point2str
+size:0;empty:1;str=[]
+line 1061: contains P(3.0, 2.0, 3.0)
+Result: false
+line 1062: print_item2str point2str
+size:0;empty:1;str=[]
+line 1063: operator=
+size:0;empty:1;str=[]
+line 1064: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 1065: add_index -1 P(2.0, 0.0, 2.0)
+Error: Out of range exception: Index is out of range!
+line 1066: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 1067: contains P(0.0, 1.0, 2.0)
+Result: false
+line 1068: print_item2str point2str
+size:0;empty:1;str=[]
+line 1069: add P(3.0, 3.0, 3.0)
+line 1070: print_item2str point2str
+size:1;empty:0;str=[P(3, 3, 3)]
+line 1071: Iterator_for
+P(3.0, 3.0, 3.0) 
+line 1072: print_item2str point2str_X
+size:1;empty:0;str=[X: 3]
+line 1073: add P(0.0, 1.0, 2.0)
+line 1074: print_item2str point2str
+size:2;empty:0;str=[P(3, 3, 3), P(0, 1, 2)]
+line 1075: add P(3.0, 1.0, 0.0)
+line 1076: print_item2str point2str
+size:3;empty:0;str=[P(3, 3, 3), P(0, 1, 2), P(3, 1, 0)]
+line 1077: removeItem P(3.0, 0.0, 2.0) pointRemove
+Result: true
+line 1078: print_item2str point2str_Y
+size:2;empty:0;str=[Y: 3, Y: 1]
+line 1079: operator=
+size:2;empty:0;str=[P(3.0, 3.0, 3.0), P(3.0, 1.0, 0.0)]
+line 1080: print_item2str point2str_Z
+size:2;empty:0;str=[Z: 3, Z: 0]
+line 1081: add P(0.0, 0.0, 3.0)
+line 1082: print_item2str point2str
+size:3;empty:0;str=[P(3, 3, 3), P(3, 1, 0), P(0, 0, 3)]
+line 1083: indexOf P(0.0, 0.0, 0.0)
+Result: 1
+line 1084: print_item2str point2str_X
+size:3;empty:0;str=[X: 3, X: 3, X: 0]
+line 1085: indexOf P(1.0, 0.0, 0.0)
+Result: 1
+line 1086: print_item2str point2str_Z
+size:3;empty:0;str=[Z: 3, Z: 0, Z: 3]
+line 1087: get -1
+Error: Out of range exception: Index is out of range!
+line 1088: print_item2str point2str_Y
+size:3;empty:0;str=[Y: 3, Y: 1, Y: 0]
+line 1089: contructor
+size:3;empty:0;str=[P(3.0, 3.0, 3.0), P(3.0, 1.0, 0.0), P(0.0, 0.0, 3.0)]
+line 1090: print_item2str point2str
+size:3;empty:0;str=[P(3, 3, 3), P(3, 1, 0), P(0, 0, 3)]
+line 1091: clear
+line 1092: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 1093: operator=
+size:0;empty:1;str=[]
+line 1094: print_item2str point2str
+size:0;empty:1;str=[]
+line 1095: add_index -1 P(3.0, 1.0, 2.0)
+Error: Out of range exception: Index is out of range!
+line 1096: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 1097: get -1
+Error: Out of range exception: Index is out of range!
+line 1098: print_item2str point2str
+size:0;empty:1;str=[]
+line 1099: add_index -1 P(0.0, 0.0, 2.0)
+Error: Out of range exception: Index is out of range!
+line 1100: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 1101: contructor
+size:0;empty:1;str=[]
+line 1102: print_item2str point2str_Z
+size:0;empty:1;str=[]
+line 1103: contains P(1.0, 2.0, 1.0)
+Result: false
+line 1104: print_item2str point2str
+size:0;empty:1;str=[]
+line 1105: removeAt 0
+Error: Out of range exception: Index is out of range!
+line 1106: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 1107: get -1
+Error: Out of range exception: Index is out of range!
+line 1108: print_item2str point2str_X
+size:0;empty:1;str=[]
+line 1109: end test ---- VO TIEN ----

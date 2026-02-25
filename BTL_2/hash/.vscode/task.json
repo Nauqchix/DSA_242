@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Main",
+      "type": "shell",
+      "command": "g++",
+      "args": [
+        "-std=c++17",
+        "-o", "main",
+        "-Iinclude",
+        "-Itest",
+        "-Itest\\unit_test_hash",
+        "main.cpp",
+        "test\\unit_test_hash\\unit_test_hash.cpp",
+        "test\\unit_test.cpp",
+        "src\\Point.cpp",
+        "src\\sampleFunc.cpp",
+        "src\\hash.cpp"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$gcc"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      }
+    }
+  ]
+}

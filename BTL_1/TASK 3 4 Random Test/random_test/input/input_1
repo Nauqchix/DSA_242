@@ -1,0 +1,46 @@
+List1D - int
+------------------------------
+set 16 31
+toString
+init_empty
+toString
+set 6 22
+toString
+get 2
+toString
+add 16
+toString
+init_num 5
+toString
+get 1
+toString
+add 68
+toString
+set 2 40
+toString
+init_array 4 69 39 93 89
+toString
+add 58
+toString
+add 39
+toString
+operator<<
+toString
+add 70
+toString
+set 5 66
+toString
+init_other 1 28
+toString
+operator<<
+toString
+add 89
+toString
+init_num 7
+toString
+add 57
+toString
+get 8
+toString
+set 8 65
+toString

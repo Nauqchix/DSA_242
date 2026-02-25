@@ -1,0 +1,1109 @@
+1103 - XArrayList - Point*
+itemEqual = pointEQ_Z
+deleteUserData = pointRemove
+capacity = 7
+---------VO-TIEN---------SHIBA---------VO-TIEN---------
+print_item2str point2str
+contructor 
+print_item2str point2str
+clear 
+print_item2str point2str_Y
+add Point 1.0 0.0 0.0  
+print_item2str point2str
+operator= 
+print_item2str point2str_X
+removeAt -1 
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_Y
+removeAt 1 
+print_item2str point2str
+operator= 
+print_item2str point2str_Y
+indexOf Point 1.0 0.0 2.0  
+print_item2str point2str_X
+contains Point 1.0 0.0 1.0  
+print_item2str point2str_Z
+add_index 1 Point 2.0 0.0 0.0  
+print_item2str point2str_X
+operator= 
+print_item2str point2str_Y
+add_index 2 Point 3.0 2.0 1.0  
+print_item2str point2str_X
+removeAt 2 
+print_item2str point2str
+clear 
+print_item2str point2str_Z
+contructor 
+print_item2str point2str_Z
+add_index 0 Point 3.0 2.0 0.0  
+print_item2str point2str
+contains Point 3.0 0.0 0.0  
+print_item2str point2str_X
+contructor 
+print_item2str point2str_Z
+clear 
+print_item2str point2str_Z
+add_index 0 Point 3.0 0.0 0.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_X
+add_index 1 Point 3.0 2.0 0.0  
+print_item2str point2str_X
+removeAt 1 
+print_item2str point2str
+contains Point 0.0 2.0 0.0  
+print_item2str point2str_Z
+indexOf Point 0.0 1.0 2.0  
+print_item2str point2str_Y
+removeAt -1 
+print_item2str point2str_X
+contains Point 2.0 3.0 0.0  
+print_item2str point2str
+contructor 
+print_item2str point2str_X
+removeItem Point 1.0 0.0 0.0  pointRemove
+print_item2str point2str_Y
+removeAt 0 
+print_item2str point2str
+Iterator_for 
+print_item2str point2str
+add Point 0.0 0.0 0.0  
+print_item2str point2str
+removeAt 0 
+print_item2str point2str
+get -1 
+print_item2str point2str_Y
+clear 
+print_item2str point2str
+get 0 
+print_item2str point2str
+add_index -1 Point 2.0 0.0 1.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_X
+get -1 
+print_item2str point2str_X
+indexOf Point 0.0 0.0 1.0  
+print_item2str point2str
+removeItem Point 2.0 3.0 2.0  pointRemove
+print_item2str point2str_X
+add Point 2.0 0.0 3.0  
+print_item2str point2str_Z
+add Point 1.0 2.0 2.0  
+print_item2str point2str_Z
+contructor 
+print_item2str point2str
+removeItem Point 3.0 3.0 2.0  pointRemove
+print_item2str point2str_Y
+contains Point 0.0 1.0 1.0  
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str
+add Point 0.0 3.0 3.0  
+print_item2str point2str
+removeAt 1 
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str_Z
+add Point 3.0 1.0 0.0  
+print_item2str point2str
+indexOf Point 3.0 3.0 3.0  
+print_item2str point2str
+get 3 
+print_item2str point2str
+contains Point 0.0 3.0 3.0  
+print_item2str point2str_Z
+get 0 
+print_item2str point2str_X
+Iterator_for 
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str_Z
+add Point 3.0 1.0 3.0  
+print_item2str point2str_Y
+contains Point 3.0 1.0 2.0  
+print_item2str point2str_Y
+contructor 
+print_item2str point2str
+operator= 
+print_item2str point2str_X
+get -1 
+print_item2str point2str_Y
+add Point 2.0 1.0 0.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_X
+operator= 
+print_item2str point2str_Y
+get 4 
+print_item2str point2str
+contains Point 1.0 0.0 1.0  
+print_item2str point2str_X
+contains Point 3.0 1.0 2.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str
+indexOf Point 0.0 2.0 2.0  
+print_item2str point2str_Z
+add Point 0.0 1.0 2.0  
+print_item2str point2str_Y
+add Point 2.0 3.0 3.0  
+print_item2str point2str
+add_index 7 Point 1.0 0.0 1.0  
+print_item2str point2str
+operator= 
+print_item2str point2str
+add Point 1.0 3.0 0.0  
+print_item2str point2str_X
+contructor 
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_Y
+get 2 
+print_item2str point2str
+removeAt 4 
+print_item2str point2str_Z
+get 6 
+print_item2str point2str
+removeAt 3 
+print_item2str point2str
+add_index 7 Point 3.0 3.0 2.0  
+print_item2str point2str_X
+indexOf Point 3.0 3.0 1.0  
+print_item2str point2str_Y
+indexOf Point 2.0 3.0 3.0  
+print_item2str point2str
+get -1 
+print_item2str point2str
+add Point 2.0 1.0 0.0  
+print_item2str point2str_Z
+contructor 
+print_item2str point2str_Y
+clear 
+print_item2str point2str
+add Point 3.0 1.0 2.0  
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str
+indexOf Point 0.0 2.0 1.0  
+print_item2str point2str_X
+clear 
+print_item2str point2str_Y
+add_index 0 Point 2.0 3.0 0.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str
+operator= 
+print_item2str point2str
+get -1 
+print_item2str point2str_X
+add Point 0.0 0.0 3.0  
+print_item2str point2str_Z
+contructor 
+print_item2str point2str
+removeItem Point 3.0 2.0 2.0  pointRemove
+print_item2str point2str_Y
+add Point 0.0 3.0 1.0  
+print_item2str point2str_Z
+removeItem Point 0.0 2.0 1.0  pointRemove
+print_item2str point2str
+contructor 
+print_item2str point2str_Y
+operator= 
+print_item2str point2str_Z
+indexOf Point 2.0 0.0 0.0  
+print_item2str point2str_Y
+add Point 1.0 2.0 1.0  
+print_item2str point2str_Y
+contructor 
+print_item2str point2str_Z
+indexOf Point 2.0 3.0 2.0  
+print_item2str point2str
+add Point 2.0 2.0 2.0  
+print_item2str point2str_Z
+removeItem Point 0.0 0.0 1.0  pointRemove
+print_item2str point2str_Z
+Iterator_for 
+print_item2str point2str_X
+removeAt 4 
+print_item2str point2str_Z
+contains Point 3.0 0.0 0.0  
+print_item2str point2str
+add Point 1.0 0.0 1.0  
+print_item2str point2str
+removeItem Point 3.0 0.0 2.0  pointRemove
+print_item2str point2str_X
+add Point 0.0 3.0 1.0  
+print_item2str point2str_Y
+indexOf Point 3.0 0.0 3.0  
+print_item2str point2str_Y
+contains Point 1.0 0.0 2.0  
+print_item2str point2str_X
+contains Point 0.0 1.0 1.0  
+print_item2str point2str_Y
+add Point 2.0 1.0 2.0  
+print_item2str point2str
+get -1 
+print_item2str point2str
+clear 
+print_item2str point2str_X
+contains Point 2.0 3.0 0.0  
+print_item2str point2str_X
+add_index 0 Point 0.0 0.0 2.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_Z
+get -1 
+print_item2str point2str
+add_index -1 Point 1.0 2.0 1.0  
+print_item2str point2str_Z
+removeItem Point 0.0 1.0 1.0  pointRemove
+print_item2str point2str_Z
+removeItem Point 1.0 1.0 0.0  pointRemove
+print_item2str point2str_Z
+operator= 
+print_item2str point2str_X
+contains Point 1.0 0.0 2.0  
+print_item2str point2str_Y
+indexOf Point 1.0 1.0 1.0  
+print_item2str point2str_X
+removeItem Point 1.0 3.0 0.0  pointRemove
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_Y
+operator= 
+print_item2str point2str_Z
+removeAt 0 
+print_item2str point2str
+contains Point 0.0 1.0 3.0  
+print_item2str point2str
+contains Point 1.0 1.0 3.0  
+print_item2str point2str_Y
+contructor 
+print_item2str point2str
+contains Point 0.0 2.0 0.0  
+print_item2str point2str
+add_index -1 Point 1.0 1.0 3.0  
+print_item2str point2str
+removeItem Point 2.0 3.0 2.0  pointRemove
+print_item2str point2str_Z
+removeItem Point 3.0 1.0 0.0  pointRemove
+print_item2str point2str
+add Point 2.0 0.0 0.0  
+print_item2str point2str_X
+removeAt 0 
+print_item2str point2str
+clear 
+print_item2str point2str
+removeAt -1 
+print_item2str point2str_X
+add_index -1 Point 0.0 2.0 0.0  
+print_item2str point2str_X
+add_index 0 Point 1.0 1.0 2.0  
+print_item2str point2str_X
+add Point 1.0 2.0 1.0  
+print_item2str point2str_Z
+indexOf Point 3.0 1.0 0.0  
+print_item2str point2str
+contructor 
+print_item2str point2str_Z
+clear 
+print_item2str point2str
+add_index -1 Point 2.0 1.0 1.0  
+print_item2str point2str
+contructor 
+print_item2str point2str
+add_index -1 Point 1.0 2.0 0.0  
+print_item2str point2str_Y
+operator= 
+print_item2str point2str
+removeItem Point 2.0 3.0 2.0  pointRemove
+print_item2str point2str_Y
+removeItem Point 1.0 2.0 1.0  pointRemove
+print_item2str point2str
+add Point 1.0 1.0 0.0  
+print_item2str point2str
+operator= 
+print_item2str point2str_X
+add Point 2.0 0.0 2.0  
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str
+add Point 0.0 0.0 3.0  
+print_item2str point2str
+clear 
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str
+get -1 
+print_item2str point2str_X
+Iterator_for 
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str_X
+removeAt 0 
+print_item2str point2str_X
+Iterator_for 
+print_item2str point2str
+removeAt 0 
+print_item2str point2str_Z
+contains Point 0.0 1.0 2.0  
+print_item2str point2str_Z
+add Point 3.0 3.0 0.0  
+print_item2str point2str_Z
+removeAt -1 
+print_item2str point2str
+operator= 
+print_item2str point2str_Z
+clear 
+print_item2str point2str_Y
+indexOf Point 3.0 1.0 0.0  
+print_item2str point2str_X
+add_index 0 Point 1.0 0.0 1.0  
+print_item2str point2str
+clear 
+print_item2str point2str_Z
+Iterator_for 
+print_item2str point2str_X
+operator= 
+print_item2str point2str_X
+removeAt -1 
+print_item2str point2str
+add Point 1.0 3.0 3.0  
+print_item2str point2str
+indexOf Point 3.0 1.0 0.0  
+print_item2str point2str_X
+add Point 0.0 3.0 0.0  
+print_item2str point2str_X
+add_index 2 Point 3.0 0.0 1.0  
+print_item2str point2str_Z
+removeAt 0 
+print_item2str point2str
+contains Point 0.0 3.0 0.0  
+print_item2str point2str_Z
+Iterator_for 
+print_item2str point2str_Y
+operator= 
+print_item2str point2str
+get 1 
+print_item2str point2str_X
+contructor 
+print_item2str point2str_Z
+clear 
+print_item2str point2str
+add_index 0 Point 0.0 3.0 3.0  
+print_item2str point2str
+indexOf Point 0.0 3.0 2.0  
+print_item2str point2str
+get -1 
+print_item2str point2str_X
+indexOf Point 3.0 2.0 2.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_Y
+removeItem Point 2.0 1.0 1.0  pointRemove
+print_item2str point2str_Z
+removeAt -1 
+print_item2str point2str_X
+add Point 1.0 0.0 3.0  
+print_item2str point2str_X
+clear 
+print_item2str point2str
+add Point 2.0 3.0 1.0  
+print_item2str point2str_Y
+add Point 2.0 3.0 0.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str
+removeItem Point 1.0 0.0 1.0  pointRemove
+print_item2str point2str_Y
+indexOf Point 3.0 1.0 3.0  
+print_item2str point2str_Y
+add Point 1.0 3.0 3.0  
+print_item2str point2str_Z
+contains Point 1.0 1.0 3.0  
+print_item2str point2str
+contains Point 2.0 3.0 1.0  
+print_item2str point2str
+removeItem Point 2.0 0.0 2.0  pointRemove
+print_item2str point2str
+add_index 1 Point 3.0 0.0 1.0  
+print_item2str point2str_Y
+contructor 
+print_item2str point2str_Z
+add Point 0.0 1.0 3.0  
+print_item2str point2str
+add_index -1 Point 0.0 0.0 1.0  
+print_item2str point2str_X
+operator= 
+print_item2str point2str_Z
+Iterator_for 
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str
+contains Point 2.0 0.0 1.0  
+print_item2str point2str
+contains Point 2.0 3.0 0.0  
+print_item2str point2str
+contains Point 0.0 0.0 1.0  
+print_item2str point2str
+get 0 
+print_item2str point2str_X
+get 2 
+print_item2str point2str_X
+add_index 1 Point 0.0 2.0 2.0  
+print_item2str point2str_Z
+indexOf Point 0.0 3.0 1.0  
+print_item2str point2str
+add Point 0.0 2.0 3.0  
+print_item2str point2str
+add_index 6 Point 2.0 1.0 3.0  
+print_item2str point2str_Y
+get 2 
+print_item2str point2str_Y
+add_index 2 Point 2.0 0.0 0.0  
+print_item2str point2str
+removeAt 8 
+print_item2str point2str_Z
+add Point 1.0 1.0 2.0  
+print_item2str point2str
+contructor 
+print_item2str point2str_X
+operator= 
+print_item2str point2str_Z
+add Point 2.0 1.0 3.0  
+print_item2str point2str_X
+add Point 0.0 0.0 1.0  
+print_item2str point2str_X
+removeItem Point 3.0 2.0 3.0  pointRemove
+print_item2str point2str_Z
+removeAt 9 
+print_item2str point2str
+add_index 8 Point 2.0 3.0 2.0  
+print_item2str point2str_Y
+add Point 0.0 3.0 3.0  
+print_item2str point2str_Z
+clear 
+print_item2str point2str
+removeAt -1 
+print_item2str point2str_X
+add_index -1 Point 2.0 1.0 1.0  
+print_item2str point2str_Z
+operator= 
+print_item2str point2str
+removeAt -1 
+print_item2str point2str
+add Point 3.0 1.0 2.0  
+print_item2str point2str_X
+Iterator_for 
+print_item2str point2str_Z
+add_index -1 Point 0.0 0.0 0.0  
+print_item2str point2str_Y
+operator= 
+print_item2str point2str_Y
+add_index 0 Point 3.0 0.0 2.0  
+print_item2str point2str
+clear 
+print_item2str point2str
+add Point 0.0 0.0 3.0  
+print_item2str point2str
+contructor 
+print_item2str point2str_Z
+clear 
+print_item2str point2str
+get 0 
+print_item2str point2str_Z
+removeItem Point 0.0 2.0 3.0  pointRemove
+print_item2str point2str_Y
+add Point 0.0 3.0 1.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_Z
+removeAt 0 
+print_item2str point2str_Y
+get 0 
+print_item2str point2str_Y
+removeAt 0 
+print_item2str point2str_Y
+operator= 
+print_item2str point2str_Z
+removeAt -1 
+print_item2str point2str
+add_index 0 Point 0.0 2.0 1.0  
+print_item2str point2str
+operator= 
+print_item2str point2str_X
+add_index 0 Point 0.0 1.0 1.0  
+print_item2str point2str
+operator= 
+print_item2str point2str_X
+contains Point 0.0 2.0 0.0  
+print_item2str point2str_X
+operator= 
+print_item2str point2str_Z
+indexOf Point 1.0 1.0 2.0  
+print_item2str point2str
+operator= 
+print_item2str point2str
+contructor 
+print_item2str point2str_Z
+removeAt 0 
+print_item2str point2str_Y
+removeAt 0 
+print_item2str point2str
+indexOf Point 1.0 1.0 0.0  
+print_item2str point2str_Z
+contains Point 1.0 3.0 1.0  
+print_item2str point2str_Y
+contains Point 1.0 1.0 3.0  
+print_item2str point2str_Y
+add Point 1.0 1.0 2.0  
+print_item2str point2str
+contructor 
+print_item2str point2str_Y
+operator= 
+print_item2str point2str
+add_index 1 Point 2.0 0.0 3.0  
+print_item2str point2str_Y
+operator= 
+print_item2str point2str_X
+removeItem Point 0.0 3.0 2.0  pointRemove
+print_item2str point2str
+operator= 
+print_item2str point2str_Y
+get 0 
+print_item2str point2str_X
+get 0 
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str
+removeAt -1 
+print_item2str point2str
+contains Point 3.0 3.0 3.0  
+print_item2str point2str_X
+removeAt 1 
+print_item2str point2str
+removeItem Point 0.0 0.0 0.0  pointRemove
+print_item2str point2str_Y
+add_index -1 Point 2.0 1.0 0.0  
+print_item2str point2str_Z
+contructor 
+print_item2str point2str_X
+operator= 
+print_item2str point2str_Z
+contains Point 3.0 2.0 1.0  
+print_item2str point2str
+contains Point 3.0 1.0 2.0  
+print_item2str point2str_Y
+removeAt -1 
+print_item2str point2str_Y
+clear 
+print_item2str point2str
+contructor 
+print_item2str point2str_Y
+add Point 3.0 2.0 1.0  
+print_item2str point2str
+removeItem Point 3.0 2.0 1.0  pointRemove
+print_item2str point2str_X
+operator= 
+print_item2str point2str_Y
+contains Point 2.0 0.0 1.0  
+print_item2str point2str_X
+contructor 
+print_item2str point2str
+add Point 1.0 1.0 3.0  
+print_item2str point2str_Y
+removeAt -1 
+print_item2str point2str_Y
+operator= 
+print_item2str point2str
+clear 
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_X
+removeItem Point 1.0 1.0 1.0  pointRemove
+print_item2str point2str_Z
+get 0 
+print_item2str point2str
+clear 
+print_item2str point2str
+add_index -1 Point 2.0 0.0 1.0  
+print_item2str point2str_X
+removeAt 0 
+print_item2str point2str
+removeAt 0 
+print_item2str point2str
+removeAt -1 
+print_item2str point2str_Y
+removeItem Point 2.0 1.0 0.0  pointRemove
+print_item2str point2str_Z
+add Point 0.0 2.0 2.0  
+print_item2str point2str_X
+contructor 
+print_item2str point2str
+contains Point 0.0 1.0 1.0  
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str_X
+add_index -1 Point 1.0 2.0 1.0  
+print_item2str point2str_Z
+removeItem Point 1.0 1.0 2.0  pointRemove
+print_item2str point2str_X
+removeAt 1 
+print_item2str point2str_Y
+operator= 
+print_item2str point2str_X
+Iterator_for 
+print_item2str point2str_Y
+add_index 0 Point 0.0 1.0 1.0  
+print_item2str point2str_Y
+add_index 2 Point 0.0 0.0 1.0  
+print_item2str point2str_Y
+contructor 
+print_item2str point2str
+removeAt 0 
+print_item2str point2str_Z
+indexOf Point 3.0 2.0 2.0  
+print_item2str point2str_Z
+operator= 
+print_item2str point2str_X
+contains Point 2.0 1.0 0.0  
+print_item2str point2str
+indexOf Point 2.0 3.0 1.0  
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str_X
+indexOf Point 2.0 0.0 3.0  
+print_item2str point2str
+clear 
+print_item2str point2str
+operator= 
+print_item2str point2str_X
+clear 
+print_item2str point2str
+contains Point 2.0 3.0 0.0  
+print_item2str point2str_Z
+clear 
+print_item2str point2str_Z
+add_index 0 Point 3.0 2.0 1.0  
+print_item2str point2str_Y
+contructor 
+print_item2str point2str_Z
+indexOf Point 2.0 0.0 0.0  
+print_item2str point2str_Z
+removeItem Point 0.0 2.0 1.0  pointRemove
+print_item2str point2str_Z
+contains Point 0.0 1.0 2.0  
+print_item2str point2str_Z
+add Point 0.0 1.0 1.0  
+print_item2str point2str_Z
+indexOf Point 1.0 1.0 1.0  
+print_item2str point2str_Y
+add Point 1.0 3.0 2.0  
+print_item2str point2str_Z
+Iterator_for 
+print_item2str point2str
+clear 
+print_item2str point2str_X
+add Point 1.0 2.0 1.0  
+print_item2str point2str
+add Point 2.0 1.0 0.0  
+print_item2str point2str
+removeItem Point 2.0 1.0 0.0  pointRemove
+print_item2str point2str_X
+get 2 
+print_item2str point2str
+add Point 1.0 2.0 1.0  
+print_item2str point2str_Z
+add Point 3.0 1.0 3.0  
+print_item2str point2str_Z
+get 1 
+print_item2str point2str_X
+clear 
+print_item2str point2str_Z
+add_index -1 Point 1.0 0.0 1.0  
+print_item2str point2str_X
+get -1 
+print_item2str point2str
+operator= 
+print_item2str point2str
+add Point 3.0 0.0 3.0  
+print_item2str point2str
+add_index 0 Point 1.0 2.0 0.0  
+print_item2str point2str_Z
+operator= 
+print_item2str point2str
+clear 
+print_item2str point2str_Z
+indexOf Point 1.0 2.0 3.0  
+print_item2str point2str
+contructor 
+print_item2str point2str_Y
+get 0 
+print_item2str point2str_Z
+Iterator_for 
+print_item2str point2str_Z
+contains Point 3.0 0.0 3.0  
+print_item2str point2str
+add Point 1.0 1.0 1.0  
+print_item2str point2str
+get 1 
+print_item2str point2str
+removeAt 1 
+print_item2str point2str
+removeAt 0 
+print_item2str point2str_Z
+contructor 
+print_item2str point2str
+removeAt 0 
+print_item2str point2str
+removeItem Point 0.0 2.0 1.0  pointRemove
+print_item2str point2str
+removeAt -1 
+print_item2str point2str
+add_index -1 Point 0.0 2.0 2.0  
+print_item2str point2str
+clear 
+print_item2str point2str_Y
+add Point 3.0 1.0 2.0  
+print_item2str point2str
+add_index -1 Point 1.0 1.0 0.0  
+print_item2str point2str
+removeAt 1 
+print_item2str point2str_Y
+add_index -1 Point 1.0 0.0 3.0  
+print_item2str point2str_Z
+add Point 0.0 0.0 3.0  
+print_item2str point2str
+add Point 1.0 2.0 0.0  
+print_item2str point2str_Z
+removeItem Point 2.0 0.0 2.0  pointRemove
+print_item2str point2str_Y
+operator= 
+print_item2str point2str
+removeItem Point 2.0 0.0 0.0  pointRemove
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str_Y
+contains Point 2.0 2.0 2.0  
+print_item2str point2str
+contains Point 1.0 1.0 0.0  
+print_item2str point2str
+add Point 1.0 2.0 0.0  
+print_item2str point2str_Z
+add_index 0 Point 2.0 1.0 1.0  
+print_item2str point2str
+add Point 1.0 1.0 2.0  
+print_item2str point2str_X
+contains Point 0.0 2.0 1.0  
+print_item2str point2str_Z
+indexOf Point 1.0 2.0 1.0  
+print_item2str point2str_Y
+contains Point 3.0 1.0 2.0  
+print_item2str point2str_X
+add_index 1 Point 2.0 0.0 0.0  
+print_item2str point2str_X
+Iterator_for 
+print_item2str point2str
+clear 
+print_item2str point2str_Z
+add_index 0 Point 1.0 3.0 3.0  
+print_item2str point2str_Y
+add_index 1 Point 1.0 1.0 2.0  
+print_item2str point2str_Y
+add_index 0 Point 1.0 0.0 2.0  
+print_item2str point2str_X
+contains Point 0.0 0.0 0.0  
+print_item2str point2str_X
+Iterator_for 
+print_item2str point2str
+indexOf Point 0.0 3.0 1.0  
+print_item2str point2str
+contructor 
+print_item2str point2str_X
+add_index -1 Point 1.0 2.0 1.0  
+print_item2str point2str_X
+add_index -1 Point 1.0 2.0 1.0  
+print_item2str point2str_Y
+indexOf Point 1.0 0.0 2.0  
+print_item2str point2str
+removeItem Point 2.0 3.0 2.0  pointRemove
+print_item2str point2str
+operator= 
+print_item2str point2str_Z
+Iterator_for 
+print_item2str point2str
+removeAt 0 
+print_item2str point2str
+contains Point 0.0 2.0 2.0  
+print_item2str point2str_Z
+clear 
+print_item2str point2str_X
+removeItem Point 2.0 3.0 3.0  pointRemove
+print_item2str point2str
+operator= 
+print_item2str point2str_Z
+operator= 
+print_item2str point2str_Y
+add_index 0 Point 2.0 3.0 0.0  
+print_item2str point2str
+clear 
+print_item2str point2str_X
+operator= 
+print_item2str point2str
+contructor 
+print_item2str point2str
+contructor 
+print_item2str point2str_X
+add Point 1.0 1.0 2.0  
+print_item2str point2str_Z
+get -1 
+print_item2str point2str_Z
+add Point 0.0 3.0 0.0  
+print_item2str point2str
+clear 
+print_item2str point2str
+operator= 
+print_item2str point2str
+indexOf Point 1.0 2.0 2.0  
+print_item2str point2str_Y
+operator= 
+print_item2str point2str
+get 0 
+print_item2str point2str_X
+operator= 
+print_item2str point2str_X
+indexOf Point 3.0 3.0 1.0  
+print_item2str point2str
+removeItem Point 2.0 0.0 0.0  pointRemove
+print_item2str point2str
+add_index -1 Point 2.0 0.0 3.0  
+print_item2str point2str_Y
+clear 
+print_item2str point2str
+operator= 
+print_item2str point2str_Z
+operator= 
+print_item2str point2str_Z
+indexOf Point 1.0 0.0 3.0  
+print_item2str point2str
+contructor 
+print_item2str point2str_Y
+operator= 
+print_item2str point2str_X
+get -1 
+print_item2str point2str
+clear 
+print_item2str point2str_Y
+indexOf Point 2.0 3.0 0.0  
+print_item2str point2str_X
+add Point 2.0 2.0 3.0  
+print_item2str point2str
+removeAt 1 
+print_item2str point2str
+removeItem Point 3.0 1.0 1.0  pointRemove
+print_item2str point2str_X
+operator= 
+print_item2str point2str_X
+removeAt 0 
+print_item2str point2str_Z
+removeAt -1 
+print_item2str point2str_X
+indexOf Point 0.0 3.0 0.0  
+print_item2str point2str_Y
+removeAt -1 
+print_item2str point2str_Z
+clear 
+print_item2str point2str_X
+operator= 
+print_item2str point2str
+operator= 
+print_item2str point2str_Y
+contructor 
+print_item2str point2str_Z
+indexOf Point 2.0 1.0 3.0  
+print_item2str point2str
+contructor 
+print_item2str point2str_Z
+clear 
+print_item2str point2str_X
+add Point 0.0 1.0 2.0  
+print_item2str point2str
+clear 
+print_item2str point2str_X
+contructor 
+print_item2str point2str
+contains Point 0.0 0.0 3.0  
+print_item2str point2str
+contructor 
+print_item2str point2str_Z
+add Point 1.0 0.0 2.0  
+print_item2str point2str_Z
+add_index -1 Point 3.0 0.0 1.0  
+print_item2str point2str_Z
+Iterator_for 
+print_item2str point2str
+removeAt 1 
+print_item2str point2str
+add Point 0.0 0.0 2.0  
+print_item2str point2str
+get 1 
+print_item2str point2str_X
+add Point 1.0 2.0 2.0  
+print_item2str point2str
+indexOf Point 2.0 3.0 0.0  
+print_item2str point2str_Y
+get 3 
+print_item2str point2str_Z
+removeItem Point 0.0 1.0 1.0  pointRemove
+print_item2str point2str_Z
+get 1 
+print_item2str point2str_X
+add_index 3 Point 0.0 3.0 2.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str
+operator= 
+print_item2str point2str_Z
+contains Point 2.0 0.0 3.0  
+print_item2str point2str_Z
+contains Point 1.0 2.0 0.0  
+print_item2str point2str_Z
+Iterator_for 
+print_item2str point2str
+contructor 
+print_item2str point2str_Y
+add Point 3.0 0.0 0.0  
+print_item2str point2str_X
+contains Point 1.0 0.0 0.0  
+print_item2str point2str
+indexOf Point 3.0 2.0 0.0  
+print_item2str point2str_Z
+contructor 
+print_item2str point2str_Z
+contains Point 2.0 3.0 3.0  
+print_item2str point2str
+operator= 
+print_item2str point2str_Y
+add_index -1 Point 1.0 2.0 2.0  
+print_item2str point2str_Y
+add_index 1 Point 3.0 0.0 3.0  
+print_item2str point2str
+removeAt 6 
+print_item2str point2str_Z
+add_index 4 Point 1.0 1.0 3.0  
+print_item2str point2str_X
+indexOf Point 1.0 0.0 1.0  
+print_item2str point2str_X
+add_index 6 Point 0.0 1.0 1.0  
+print_item2str point2str_Z
+get 5 
+print_item2str point2str_Z
+add_index 5 Point 0.0 0.0 2.0  
+print_item2str point2str
+removeItem Point 1.0 1.0 1.0  pointRemove
+print_item2str point2str
+add_index 0 Point 1.0 3.0 0.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_Y
+Iterator_for 
+print_item2str point2str_Z
+removeItem Point 2.0 3.0 2.0  pointRemove
+print_item2str point2str_Y
+add Point 2.0 2.0 2.0  
+print_item2str point2str_Y
+contructor 
+print_item2str point2str_X
+get 7 
+print_item2str point2str
+add_index -1 Point 0.0 2.0 0.0  
+print_item2str point2str_Y
+add Point 1.0 2.0 0.0  
+print_item2str point2str_Z
+contains Point 1.0 1.0 3.0  
+print_item2str point2str_Y
+clear 
+print_item2str point2str_Y
+contructor 
+print_item2str point2str_X
+operator= 
+print_item2str point2str_Y
+get -1 
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_Z
+removeItem Point 0.0 3.0 1.0  pointRemove
+print_item2str point2str_Y
+get 0 
+print_item2str point2str_Z
+add_index -1 Point 1.0 3.0 1.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str
+get -1 
+print_item2str point2str
+contructor 
+print_item2str point2str_X
+Iterator_for 
+print_item2str point2str_Y
+indexOf Point 1.0 1.0 1.0  
+print_item2str point2str_Y
+get -1 
+print_item2str point2str_Z
+Iterator_for 
+print_item2str point2str_Y
+add_index -1 Point 2.0 3.0 0.0  
+print_item2str point2str
+contains Point 3.0 2.0 3.0  
+print_item2str point2str
+operator= 
+print_item2str point2str_Z
+add_index -1 Point 2.0 0.0 2.0  
+print_item2str point2str_X
+contains Point 0.0 1.0 2.0  
+print_item2str point2str
+add Point 3.0 3.0 3.0  
+print_item2str point2str
+Iterator_for 
+print_item2str point2str_X
+add Point 0.0 1.0 2.0  
+print_item2str point2str
+add Point 3.0 1.0 0.0  
+print_item2str point2str
+removeItem Point 3.0 0.0 2.0  pointRemove
+print_item2str point2str_Y
+operator= 
+print_item2str point2str_Z
+add Point 0.0 0.0 3.0  
+print_item2str point2str
+indexOf Point 0.0 0.0 0.0  
+print_item2str point2str_X
+indexOf Point 1.0 0.0 0.0  
+print_item2str point2str_Z
+get -1 
+print_item2str point2str_Y
+contructor 
+print_item2str point2str
+clear 
+print_item2str point2str_Z
+operator= 
+print_item2str point2str
+add_index -1 Point 3.0 1.0 2.0  
+print_item2str point2str_Z
+get -1 
+print_item2str point2str
+add_index -1 Point 0.0 0.0 2.0  
+print_item2str point2str_Z
+contructor 
+print_item2str point2str_Z
+contains Point 1.0 2.0 1.0  
+print_item2str point2str
+removeAt 0 
+print_item2str point2str_X
+get -1 
+print_item2str point2str_X
+---------VO-TIEN---------SHIBA---------VO-TIEN---------

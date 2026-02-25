@@ -1,0 +1,32 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build Heap Debug",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "-std=c++17",
+          "-g",
+          "-o", "build/Debug/outDebug.exe",
+          "-Iinclude",
+          "-Itest",
+          "-Itest/unit_test_Heap",
+          "main.cpp",
+          "test/unit_test_Heap/unit_test_Heap.cpp",
+          "test/unit_test.cpp",
+          "src/Point.cpp",
+          "src/Heap.cpp"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "options": {
+          "cwd": "${workspaceFolder}"
+        }
+      }
+    ]
+  }
+  

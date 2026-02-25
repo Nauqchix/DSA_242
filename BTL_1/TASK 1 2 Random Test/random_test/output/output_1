@@ -1,0 +1,357 @@
+line 6: print_item2str null
+size:0;empty:1;str=[]
+line 7: BWDIterator_for
+
+line 8: print_item2str null
+size:0;empty:1;str=[]
+line 9: Iterator_for
+
+line 10: print_item2str null
+size:0;empty:1;str=[]
+line 11: contructor
+size:0;empty:1;str=[]
+line 12: print_item2str null
+size:0;empty:1;str=[]
+line 13: add_index -1 4
+Error: Out of range exception: Index is out of range!
+line 14: print_item2str null
+size:0;empty:1;str=[]
+line 15: operator=
+size:0;empty:1;str=[]
+line 16: print_item2str null
+size:0;empty:1;str=[]
+line 17: add_index -1 9
+Error: Out of range exception: Index is out of range!
+line 18: print_item2str null
+size:0;empty:1;str=[]
+line 19: operator=
+size:0;empty:1;str=[]
+line 20: print_item2str null
+size:0;empty:1;str=[]
+line 21: add_index -1 1
+Error: Out of range exception: Index is out of range!
+line 22: print_item2str null
+size:0;empty:1;str=[]
+line 23: add_index 0 7
+line 24: print_item2str null
+size:1;empty:0;str=[7]
+line 25: BWDIterator_for
+7
+line 26: print_item2str null
+size:1;empty:0;str=[7]
+line 27: operator=
+size:1;empty:0;str=[7]
+line 28: print_item2str null
+size:1;empty:0;str=[7]
+line 29: add 8
+line 30: print_item2str null
+size:2;empty:0;str=[7, 8]
+line 31: BWDIterator_for
+8, 7
+line 32: print_item2str null
+size:2;empty:0;str=[7, 8]
+line 33: Iterator_for
+7 8 
+line 34: print_item2str null
+size:2;empty:0;str=[7, 8]
+line 35: add 0
+line 36: print_item2str null
+size:3;empty:0;str=[7, 8, 0]
+line 37: add 8
+line 38: print_item2str null
+size:4;empty:0;str=[7, 8, 0, 8]
+line 39: add 16
+line 40: print_item2str null
+size:5;empty:0;str=[7, 8, 0, 8, 16]
+line 41: contructor
+size:5;empty:0;str=[7, 8, 0, 8, 16]
+line 42: print_item2str null
+size:5;empty:0;str=[7, 8, 0, 8, 16]
+line 43: Iterator_for
+7 8 0 8 16 
+line 44: print_item2str null
+size:5;empty:0;str=[7, 8, 0, 8, 16]
+line 45: BWDIterator_for
+16, 8, 0, 8, 7
+line 46: print_item2str null
+size:5;empty:0;str=[7, 8, 0, 8, 16]
+line 47: BWDIterator_for
+16, 8, 0, 8, 7
+line 48: print_item2str null
+size:5;empty:0;str=[7, 8, 0, 8, 16]
+line 49: add_index 0 15
+line 50: print_item2str null
+size:6;empty:0;str=[15, 7, 8, 0, 8, 16]
+line 51: operator=
+size:6;empty:0;str=[15, 7, 8, 0, 8, 16]
+line 52: print_item2str null
+size:6;empty:0;str=[15, 7, 8, 0, 8, 16]
+line 53: add 8
+line 54: print_item2str null
+size:7;empty:0;str=[15, 7, 8, 0, 8, 16, 8]
+line 55: add 11
+line 56: print_item2str null
+size:8;empty:0;str=[15, 7, 8, 0, 8, 16, 8, 11]
+line 57: contructor
+size:8;empty:0;str=[15, 7, 8, 0, 8, 16, 8, 11]
+line 58: print_item2str null
+size:8;empty:0;str=[15, 7, 8, 0, 8, 16, 8, 11]
+line 59: add 16
+line 60: print_item2str null
+size:9;empty:0;str=[15, 7, 8, 0, 8, 16, 8, 11, 16]
+line 61: Iterator_for
+15 7 8 0 8 16 8 11 16 
+line 62: print_item2str null
+size:9;empty:0;str=[15, 7, 8, 0, 8, 16, 8, 11, 16]
+line 63: add_index 2 14
+line 64: print_item2str null
+size:10;empty:0;str=[15, 7, 14, 8, 0, 8, 16, 8, 11, 16]
+line 65: Iterator_for
+15 7 14 8 0 8 16 8 11 16 
+line 66: print_item2str null
+size:10;empty:0;str=[15, 7, 14, 8, 0, 8, 16, 8, 11, 16]
+line 67: Iterator_for
+15 7 14 8 0 8 16 8 11 16 
+line 68: print_item2str null
+size:10;empty:0;str=[15, 7, 14, 8, 0, 8, 16, 8, 11, 16]
+line 69: Iterator_for
+15 7 14 8 0 8 16 8 11 16 
+line 70: print_item2str null
+size:10;empty:0;str=[15, 7, 14, 8, 0, 8, 16, 8, 11, 16]
+line 71: BWDIterator_for
+16, 11, 8, 16, 8, 0, 8, 14, 7, 15
+line 72: print_item2str null
+size:10;empty:0;str=[15, 7, 14, 8, 0, 8, 16, 8, 11, 16]
+line 73: BWDIterator_for
+16, 11, 8, 16, 8, 0, 8, 14, 7, 15
+line 74: print_item2str null
+size:10;empty:0;str=[15, 7, 14, 8, 0, 8, 16, 8, 11, 16]
+line 75: add 19
+line 76: print_item2str null
+size:11;empty:0;str=[15, 7, 14, 8, 0, 8, 16, 8, 11, 16, 19]
+line 77: Iterator_for
+15 7 14 8 0 8 16 8 11 16 19 
+line 78: print_item2str null
+size:11;empty:0;str=[15, 7, 14, 8, 0, 8, 16, 8, 11, 16, 19]
+line 79: BWDIterator_for
+19, 16, 11, 8, 16, 8, 0, 8, 14, 7, 15
+line 80: print_item2str null
+size:11;empty:0;str=[15, 7, 14, 8, 0, 8, 16, 8, 11, 16, 19]
+line 81: add_index 3 7
+line 82: print_item2str null
+size:12;empty:0;str=[15, 7, 14, 7, 8, 0, 8, 16, 8, 11, 16, 19]
+line 83: Iterator_for
+15 7 14 7 8 0 8 16 8 11 16 19 
+line 84: print_item2str null
+size:12;empty:0;str=[15, 7, 14, 7, 8, 0, 8, 16, 8, 11, 16, 19]
+line 85: add_index 2 7
+line 86: print_item2str null
+size:13;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 16, 8, 11, 16, 19]
+line 87: add_index -1 12
+Error: Out of range exception: Index is out of range!
+line 88: print_item2str null
+size:13;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 16, 8, 11, 16, 19]
+line 89: add_index 8 2
+line 90: print_item2str null
+size:14;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19]
+line 91: operator=
+size:14;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19]
+line 92: print_item2str null
+size:14;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19]
+line 93: BWDIterator_for
+19, 16, 11, 8, 16, 2, 8, 0, 8, 7, 14, 7, 7, 15
+line 94: print_item2str null
+size:14;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19]
+line 95: add 2
+line 96: print_item2str null
+size:15;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2]
+line 97: BWDIterator_for
+2, 19, 16, 11, 8, 16, 2, 8, 0, 8, 7, 14, 7, 7, 15
+line 98: print_item2str null
+size:15;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2]
+line 99: operator=
+size:15;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2]
+line 100: print_item2str null
+size:15;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2]
+line 101: contructor
+size:15;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2]
+line 102: print_item2str null
+size:15;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2]
+line 103: Iterator_for
+15 7 7 14 7 8 0 8 2 16 8 11 16 19 2 
+line 104: print_item2str null
+size:15;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2]
+line 105: contructor
+size:15;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2]
+line 106: print_item2str null
+size:15;empty:0;str=[15, 7, 7, 14, 7, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2]
+line 107: add_index 5 4
+line 108: print_item2str null
+size:16;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2]
+line 109: BWDIterator_for
+2, 19, 16, 11, 8, 16, 2, 8, 0, 8, 4, 7, 14, 7, 7, 15
+line 110: print_item2str null
+size:16;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2]
+line 111: add 18
+line 112: print_item2str null
+size:17;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18]
+line 113: BWDIterator_for
+18, 2, 19, 16, 11, 8, 16, 2, 8, 0, 8, 4, 7, 14, 7, 7, 15
+line 114: print_item2str null
+size:17;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18]
+line 115: Iterator_for
+15 7 7 14 7 4 8 0 8 2 16 8 11 16 19 2 18 
+line 116: print_item2str null
+size:17;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18]
+line 117: operator=
+size:17;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18]
+line 118: print_item2str null
+size:17;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18]
+line 119: Iterator_for
+15 7 7 14 7 4 8 0 8 2 16 8 11 16 19 2 18 
+line 120: print_item2str null
+size:17;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18]
+line 121: add 10
+line 122: print_item2str null
+size:18;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18, 10]
+line 123: BWDIterator_for
+10, 18, 2, 19, 16, 11, 8, 16, 2, 8, 0, 8, 4, 7, 14, 7, 7, 15
+line 124: print_item2str null
+size:18;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18, 10]
+line 125: contructor
+size:18;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18, 10]
+line 126: print_item2str null
+size:18;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18, 10]
+line 127: Iterator_for
+15 7 7 14 7 4 8 0 8 2 16 8 11 16 19 2 18 10 
+line 128: print_item2str null
+size:18;empty:0;str=[15, 7, 7, 14, 7, 4, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18, 10]
+line 129: add_index 6 16
+line 130: print_item2str null
+size:19;empty:0;str=[15, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18, 10]
+line 131: contructor
+size:19;empty:0;str=[15, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18, 10]
+line 132: print_item2str null
+size:19;empty:0;str=[15, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18, 10]
+line 133: Iterator_for
+15 7 7 14 7 4 16 8 0 8 2 16 8 11 16 19 2 18 10 
+line 134: print_item2str null
+size:19;empty:0;str=[15, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 16, 19, 2, 18, 10]
+line 135: add_index 14 6
+line 136: print_item2str null
+size:20;empty:0;str=[15, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10]
+line 137: operator=
+size:20;empty:0;str=[15, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10]
+line 138: print_item2str null
+size:20;empty:0;str=[15, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10]
+line 139: add 6
+line 140: print_item2str null
+size:21;empty:0;str=[15, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 6]
+line 141: add_index 1 5
+line 142: print_item2str null
+size:22;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 6]
+line 143: add 18
+line 144: print_item2str null
+size:23;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 6, 18]
+line 145: Iterator_for
+15 5 7 7 14 7 4 16 8 0 8 2 16 8 11 6 16 19 2 18 10 6 18 
+line 146: print_item2str null
+size:23;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 6, 18]
+line 147: add_index 21 2
+line 148: print_item2str null
+size:24;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18]
+line 149: operator=
+size:24;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18]
+line 150: print_item2str null
+size:24;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18]
+line 151: operator=
+size:24;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18]
+line 152: print_item2str null
+size:24;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18]
+line 153: BWDIterator_for
+18, 6, 2, 10, 18, 2, 19, 16, 6, 11, 8, 16, 2, 8, 0, 8, 16, 4, 7, 14, 7, 7, 5, 15
+line 154: print_item2str null
+size:24;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18]
+line 155: operator=
+size:24;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18]
+line 156: print_item2str null
+size:24;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18]
+line 157: add 2
+line 158: print_item2str null
+size:25;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18, 2]
+line 159: contructor
+size:25;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18, 2]
+line 160: print_item2str null
+size:25;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18, 2]
+line 161: BWDIterator_for
+2, 18, 6, 2, 10, 18, 2, 19, 16, 6, 11, 8, 16, 2, 8, 0, 8, 16, 4, 7, 14, 7, 7, 5, 15
+line 162: print_item2str null
+size:25;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18, 2]
+line 163: operator=
+size:25;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18, 2]
+line 164: print_item2str null
+size:25;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18, 2]
+line 165: add_index 13 8
+line 166: print_item2str null
+size:26;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18, 2]
+line 167: add 1
+line 168: print_item2str null
+size:27;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 19, 2, 18, 10, 2, 6, 18, 2, 1]
+line 169: add_index 18 10
+line 170: print_item2str null
+size:28;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 2, 18, 10, 2, 6, 18, 2, 1]
+line 171: Iterator_for
+15 5 7 7 14 7 4 16 8 0 8 2 16 8 8 11 6 16 10 19 2 18 10 2 6 18 2 1 
+line 172: print_item2str null
+size:28;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 2, 18, 10, 2, 6, 18, 2, 1]
+line 173: operator=
+size:28;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 2, 18, 10, 2, 6, 18, 2, 1]
+line 174: print_item2str null
+size:28;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 2, 18, 10, 2, 6, 18, 2, 1]
+line 175: add 2
+line 176: print_item2str null
+size:29;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 2, 18, 10, 2, 6, 18, 2, 1, 2]
+line 177: add 3
+line 178: print_item2str null
+size:30;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 2, 18, 10, 2, 6, 18, 2, 1, 2, 3]
+line 179: Iterator_for
+15 5 7 7 14 7 4 16 8 0 8 2 16 8 8 11 6 16 10 19 2 18 10 2 6 18 2 1 2 3 
+line 180: print_item2str null
+size:30;empty:0;str=[15, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 2, 18, 10, 2, 6, 18, 2, 1, 2, 3]
+line 181: add_index 1 7
+line 182: print_item2str null
+size:31;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 2, 18, 10, 2, 6, 18, 2, 1, 2, 3]
+line 183: add_index 25 8
+line 184: print_item2str null
+size:32;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 2, 18, 10, 2, 8, 6, 18, 2, 1, 2, 3]
+line 185: operator=
+size:32;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 2, 18, 10, 2, 8, 6, 18, 2, 1, 2, 3]
+line 186: print_item2str null
+size:32;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 2, 18, 10, 2, 8, 6, 18, 2, 1, 2, 3]
+line 187: add_index 23 10
+line 188: print_item2str null
+size:33;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 2, 18, 10, 10, 2, 8, 6, 18, 2, 1, 2, 3]
+line 189: add_index 21 16
+line 190: print_item2str null
+size:34;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 16, 2, 18, 10, 10, 2, 8, 6, 18, 2, 1, 2, 3]
+line 191: add 9
+line 192: print_item2str null
+size:35;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 16, 2, 18, 10, 10, 2, 8, 6, 18, 2, 1, 2, 3, 9]
+line 193: add 0
+line 194: print_item2str null
+size:36;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 16, 2, 18, 10, 10, 2, 8, 6, 18, 2, 1, 2, 3, 9, 0]
+line 195: add 1
+line 196: print_item2str null
+size:37;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 16, 2, 18, 10, 10, 2, 8, 6, 18, 2, 1, 2, 3, 9, 0, 1]
+line 197: operator=
+size:37;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 16, 2, 18, 10, 10, 2, 8, 6, 18, 2, 1, 2, 3, 9, 0, 1]
+line 198: print_item2str null
+size:37;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 16, 2, 18, 10, 10, 2, 8, 6, 18, 2, 1, 2, 3, 9, 0, 1]
+line 199: add 1
+line 200: print_item2str null
+size:38;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 16, 2, 18, 10, 10, 2, 8, 6, 18, 2, 1, 2, 3, 9, 0, 1, 1]
+line 201: contructor
+size:38;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 16, 2, 18, 10, 10, 2, 8, 6, 18, 2, 1, 2, 3, 9, 0, 1, 1]
+line 202: print_item2str null
+size:38;empty:0;str=[15, 7, 5, 7, 7, 14, 7, 4, 16, 8, 0, 8, 2, 16, 8, 8, 11, 6, 16, 10, 19, 16, 2, 18, 10, 10, 2, 8, 6, 18, 2, 1, 2, 3, 9, 0, 1, 1]
+line 203: end test ---- VO TIEN ----
